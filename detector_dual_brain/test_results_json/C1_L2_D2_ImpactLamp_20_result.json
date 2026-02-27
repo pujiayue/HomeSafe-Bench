@@ -1,0 +1,23 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L2_D2_ImpactLamp_20.mp4",
+  "total_frames": 60,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving in open space away from furniture and objects, maintaining a safe distance.",
+      "infer_time": 1.382
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot continues to move in open space, maintaining a safe distance from objects and humans.",
+      "infer_time": 1.039
+    }
+  ]
+}

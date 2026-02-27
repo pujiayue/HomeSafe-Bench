@@ -1,0 +1,20 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/2-Drop_Sharp_Object_2.mp4",
+  "total_frames": 192,
+  "stop_info": {
+    "stop_reason": "fast_brain_red",
+    "danger_timestamp": 0.0,
+    "actual_stop_time": 2.08748197555542,
+    "latency": 2.08748197555542
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "red",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"yellow\\\",\\n    \\\"reason\\\": \\\"Robot gripper is very close to the edge of a marble countertop, potentially at risk of dropping an object or slipping off the surface.\\\"\\n}\\n```",
+      "infer_time": 2.087
+    }
+  ]
+}

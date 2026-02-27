@@ -1,0 +1,47 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactPlant_11.mp4",
+  "total_frames": 150,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is positioned in a clear area away from people and objects, maintaining a safe distance.",
+      "infer_time": 1.359
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot continues to move freely in open space, no objects or humans nearby.",
+      "infer_time": 0.94
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot remains in open area, maintaining safe distance from all objects and humans.",
+      "infer_time": 0.939
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot continues to move freely in open space, maintaining a safe distance from all objects and humans.",
+      "infer_time": 1.083
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot continues to move freely in open space, maintaining a safe distance from all objects and humans.",
+      "infer_time": 1.086
+    }
+  ]
+}

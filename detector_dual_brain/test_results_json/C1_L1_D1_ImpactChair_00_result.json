@@ -1,0 +1,63 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactChair_00.mp4",
+  "total_frames": 210,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving in open space away from furniture and humans, maintaining a safe distance.",
+      "infer_time": 1.329
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot continues to move in open space, maintaining a safe distance from objects and humans.",
+      "infer_time": 0.999
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving in open space, maintaining a safe distance from objects and humans.",
+      "infer_time": 0.971
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving in open space, maintaining a safe distance from objects and humans.",
+      "infer_time": 0.979
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving in open space, maintaining a safe distance from objects and humans.",
+      "infer_time": 0.987
+    },
+    {
+      "timestamp": 5.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving in open space, maintaining a safe distance from objects and humans.",
+      "infer_time": 0.995
+    },
+    {
+      "timestamp": 6.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving in open space, maintaining a safe distance from objects and humans.",
+      "infer_time": 1.005
+    }
+  ]
+}

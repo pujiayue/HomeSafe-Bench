@@ -1,0 +1,20 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/1__zzl_2.mp4",
+  "total_frames": 192,
+  "stop_info": {
+    "stop_reason": "fast_brain_red",
+    "danger_timestamp": 0.0,
+    "actual_stop_time": 2.0054993629455566,
+    "latency": 2.0054993629455566
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "red",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"yellow\\\",\\n    \\\"reason\\\": \\\"The kettle is placed on a base near the edge of the counter, posing a risk of tipping or spilling if moved abruptly.\\\"\\n}\\n```",
+      "infer_time": 2.005
+    }
+  ]
+}

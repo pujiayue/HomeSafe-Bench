@@ -1,0 +1,63 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L3_D2_ImpactToddler_01.mp4",
+  "total_frames": 210,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot arm is positioned away from objects and humans, with ample free space around it.",
+      "infer_time": 1.398
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot arm is still at a safe distance from objects and humans, with no immediate hazards.",
+      "infer_time": 1.139
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot arm remains in free space, well away from any objects or humans.",
+      "infer_time": 0.979
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot arm continues to move in a clear area, maintaining a safe distance from surroundings.",
+      "infer_time": 1.044
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot arm is still operating in a clear, unobstructed area with no hazards present.",
+      "infer_time": 1.107
+    },
+    {
+      "timestamp": 5.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot arm is moving freely with no proximity to objects or humans that would pose a risk.",
+      "infer_time": 1.084
+    },
+    {
+      "timestamp": 6.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot arm is maintaining a safe distance from all objects and humans in the environment.",
+      "infer_time": 1.037
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactChair_07.mp4",
+  "total_frames": 90,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is moving in open space away from furniture and humans, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.739
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot continues to move in open space, maintaining a safe distance from the piano and other objects.\\\"\\n}\\n```",
+      "infer_time": 1.451
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is positioned in open space, with no immediate contact or hazardous interaction occurring.\\\"\\n}\\n```",
+      "infer_time": 1.363
+    }
+  ]
+}

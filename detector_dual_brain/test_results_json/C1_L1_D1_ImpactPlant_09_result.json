@@ -1,0 +1,47 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactPlant_09.mp4",
+  "total_frames": 150,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is in open space with no immediate proximity to humans or objects, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.78
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is still in open space, not interacting with any objects or humans closely.\\\"\\n}\\n```",
+      "infer_time": 1.353
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot remains in open area, no hazards detected nearby.\\\"\\n}\\n```",
+      "infer_time": 1.2
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot continues to operate in open space, maintaining safe distance from objects and humans.\\\"\\n}\\n```",
+      "infer_time": 1.376
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is still in open area, no immediate hazards present.\\\"\\n}\\n```",
+      "infer_time": 1.255
+    }
+  ]
+}

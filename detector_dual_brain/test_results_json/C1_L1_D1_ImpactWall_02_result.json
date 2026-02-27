@@ -1,0 +1,47 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactWall_02.mp4",
+  "total_frames": 150,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is moving in open space with no immediate proximity to objects or humans.\\\"\\n}\\n```",
+      "infer_time": 1.688
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is moving in open space with no immediate proximity to objects or humans.\\\"\\n}\\n```",
+      "infer_time": 1.354
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is moving in open space with no immediate proximity to objects or humans.\\\"\\n}\\n```",
+      "infer_time": 1.35
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is moving in open space with no immediate proximity to objects or humans.\\\"\\n}\\n```",
+      "infer_time": 1.353
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is moving in open space with no immediate proximity to objects or humans.\\\"\\n}\\n```",
+      "infer_time": 1.356
+    }
+  ]
+}

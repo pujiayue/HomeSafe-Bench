@@ -1,0 +1,20 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/4-Latent_Hazard_3.mp4",
+  "total_frames": 192,
+  "stop_info": {
+    "stop_reason": "fast_brain_red",
+    "danger_timestamp": 0.0,
+    "actual_stop_time": 1.9113173484802246,
+    "latency": 1.9113173484802246
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "red",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"red\\\",\\n    \\\"reason\\\": \\\"The robot is extremely close to a glowing red space heater, which poses a severe burn/fire hazard if contact occurs.\\\"\\n}\\n```",
+      "infer_time": 1.911
+    }
+  ]
+}

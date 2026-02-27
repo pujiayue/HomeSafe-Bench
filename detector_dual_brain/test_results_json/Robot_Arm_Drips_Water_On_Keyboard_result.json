@@ -1,0 +1,20 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/Robot_Arm_Drips_Water_On_Keyboard.mp4",
+  "total_frames": 192,
+  "stop_info": {
+    "stop_reason": "fast_brain_red",
+    "danger_timestamp": 0.0,
+    "actual_stop_time": 1.2977495193481445,
+    "latency": 1.2977495193481445
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "red",
+      "reason": "Liquid spill on desk surface near keyboard and mouse, creating a slip hazard.",
+      "infer_time": 1.298
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D3_ImpactPlant_02.mp4",
+  "total_frames": 180,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is moving in open space with a safe distance from objects and humans.\\\"\\n}\\n```",
+      "infer_time": 1.634
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is positioned away from immediate hazards, maintaining a safe distance from furniture and objects.\\\"\\n}\\n```",
+      "infer_time": 1.389
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is stationary and not interacting with any objects or humans in close proximity.\\\"\\n}\\n```",
+      "infer_time": 1.332
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot remains in open space with no immediate hazards or interactions occurring.\\\"\\n}\\n```",
+      "infer_time": 1.282
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is positioned safely with no close proximity to objects or humans, and no hazardous actions are taking place.\\\"\\n}\\n```",
+      "infer_time": 1.561
+    },
+    {
+      "timestamp": 5.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is in a clear area with no immediate risks or interactions occurring.\\\"\\n}\\n```",
+      "infer_time": 1.334
+    }
+  ]
+}

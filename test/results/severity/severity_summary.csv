@@ -1,0 +1,13 @@
+model_file,total_samples,accuracy,underestimate_rate,overestimate_rate,MAE,macro_F1,invalid_predictions,L1_acc,L2_acc,L3_acc,L4_acc
+results_severity_only_models--OpenGVLab--InternVL3-1B.json,4,0.5,0.0,0.5,0.75,0.2,2,0.666667,0.0,0,0
+results_severity_only_models--OpenGVLab--InternVL3_5-8B.json,360,0.386111,0.233333,0.380556,0.861111,0.297775,78,0.197674,0.705426,0.012195,0.47619
+results_severity_only_models--llava-hf--LLaVA-NeXT-Video-7B-hf.json,165,0.357576,0.333333,0.309091,0.90303,0.316297,273,0.552632,0.215686,0.543478,0.066667
+results_severity_only_models--Qwen--Qwen3-VL-8B-Instruct.json,368,0.350543,0.152174,0.497283,0.888587,0.326223,70,0.119565,0.442748,0.409639,0.419355
+results_severity_only_models--openbmb--MiniCPM-V-4_5.json,426,0.312207,0.187793,0.5,0.882629,0.278894,12,0.093525,0.569343,0.209302,0.375
+results_severity_only_models--Qwen--Qwen3-VL-4B-Instruct.json,249,0.285141,0.160643,0.554217,0.991968,0.242573,189,0.030303,0.229167,0.324324,0.521739
+results_severity_only_models--OpenGVLab--InternVL3_5-2B.json,349,0.277937,0.209169,0.512894,1.037249,0.292282,89,0.341772,0.188976,0.285714,0.372881
+results_severity_only_models--OpenGVLab--InternVL3_5-4B.json,273,0.274725,0.377289,0.347985,0.868132,0.234662,165,0.222222,0.330189,0.378378,0.041667
+results_severity_only_models--openbmb--MiniCPM-o-2_6.json,417,0.266187,0.235012,0.498801,0.966427,0.24148,21,0.109375,0.446043,0.218391,0.253968
+results_severity_only_models--Qwen--Qwen3-VL-2B-Instruct.json,206,0.23301,0.038835,0.728155,1.291262,0.167597,232,0.0,0.022727,0.307692,0.833333
+results_severity_only_models--OpenGVLab--InternVL3_5-1B.json,232,0.189655,0.12069,0.689655,1.228448,0.161316,206,0.090909,0.0,0.301887,0.543478
+results_severity_only_models--llava-hf--llava-onevision-qwen2-0.5b-ov-hf.json,350,0.148571,0.028571,0.822857,1.557143,0.112429,0,0.0,0.0,0.289855,0.761905

@@ -1,0 +1,20 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/3-Spill_Sticky_Substance_3.mp4",
+  "total_frames": 192,
+  "stop_info": {
+    "stop_reason": "fast_brain_red",
+    "danger_timestamp": 0.0,
+    "actual_stop_time": 1.524510383605957,
+    "latency": 1.524510383605957
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "red",
+      "reason": "Robot is actively approaching a bowl of ice cream with chocolate sauce, creating an imminent risk of contamination or spillage.",
+      "infer_time": 1.525
+    }
+  ]
+}

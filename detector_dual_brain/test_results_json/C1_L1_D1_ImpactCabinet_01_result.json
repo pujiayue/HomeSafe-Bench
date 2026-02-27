@@ -1,0 +1,71 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactCabinet_01.mp4",
+  "total_frames": 240,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is in open space, no immediate hazards detected.\\\"\\n}\\n```",
+      "infer_time": 1.513
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is moving freely in open space, maintaining safe distance from furniture and humans.\\\"\\n}\\n```",
+      "infer_time": 1.349
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot continues to move in open area, no objects or humans nearby.\\\"\\n}\\n```",
+      "infer_time": 1.293
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot remains in open space, no hazards detected.\\\"\\n}\\n```",
+      "infer_time": 1.175
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is stationary in open area, no immediate hazards present.\\\"\\n}\\n```",
+      "infer_time": 1.252
+    },
+    {
+      "timestamp": 5.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot remains in open space, no hazards detected.\\\"\\n}\\n```",
+      "infer_time": 1.198
+    },
+    {
+      "timestamp": 6.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is moving in open space, maintaining safe distance from furniture.\\\"\\n}\\n```",
+      "infer_time": 1.307
+    },
+    {
+      "timestamp": 7.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot continues to move in open area, no hazards detected.\\\"\\n}\\n```",
+      "infer_time": 1.292
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+    "0__zzl_1.mp4": {
+        "result": "Safe",
+        "is_dangerous": false,
+        "timestamp": null,
+        "latency_metrics": null
+    },
+    "0__zzl_2.mp4": {
+        "result": "Safe",
+        "is_dangerous": false,
+        "timestamp": null,
+        "latency_metrics": null
+    },
+    "0__zzl_3.mp4": {
+        "result": "Safe",
+        "is_dangerous": false,
+        "timestamp": null,
+        "latency_metrics": null
+    },
+    "0__zzl_4.mp4": {
+        "result": "Safe",
+        "is_dangerous": false,
+        "timestamp": null,
+        "latency_metrics": null
+    },
+    "0__zzl_5.mp4": {
+        "result": "Safe",
+        "is_dangerous": false,
+        "timestamp": null,
+        "latency_metrics": null
+    },
+    "0__zzl_7.mp4": {
+        "result": "Safe",
+        "is_dangerous": false,
+        "timestamp": null,
+        "latency_metrics": null
+    },
+    "0__zzl_8.mp4": {
+        "result": "Safe",
+        "is_dangerous": false,
+        "timestamp": null,
+        "latency_metrics": null
+    },
+    "0__zzl_9.mp4": {
+        "result": "Safe",
+        "is_dangerous": false,
+        "timestamp": null,
+        "latency_metrics": null
+    },
+    "1-Burn_Hazard_0.mp4": {
+        "result": "Safe",
+        "is_dangerous": false,
+        "timestamp": null,
+        "latency_metrics": null
+    },
+    "1-Burn_Hazard_1.mp4": {
+        "result": "Safe",
+        "is_dangerous": false,
+        "timestamp": null,
+        "latency_metrics": null
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/4__zzl_12.mp4",
+  "total_frames": 192,
+  "stop_info": {
+    "stop_reason": "slow_brain_confirmed",
+    "danger_timestamp": 0.0,
+    "actual_stop_time": 1.6679282188415527,
+    "latency": 1.6679282188415527
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "yellow",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"yellow\\\",\\n    \\\"reason\\\": \\\"Robot is moving quickly near a human on a narrow balcony, posing a collision risk due to proximity and speed.\\\"\\n}\\n```",
+      "infer_time": 1.949
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 10.0,
+      "category": "yellow",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"yellow\\\",\\n    \\\"reason\\\": \\\"Robot arm is extremely close to the potted plant and balcony railing, with potential for contact or obstruction during movement.\\\"\\n}\\n```",
+      "infer_time": 2.041
+    },
+    {
+      "trigger_timestamp": 0.0,
+      "type": "slow_brain",
+      "verdict_text": "Got it, let's see. The task is to determine if the robot's action sequence creates a latent hazard or leads to an accident. The critical rule is speed is life. In the frame, the robot is moving quickly towards the person, which could be a hazard. Since it's a potential hazard flagged as yellow, but the robot's movement might cause an accident. Wait, the output needs to be either DANGER or SAFE. Given that the robot is moving fast (the blur suggests speed), and in a home safety context, a fast-moving robot near a person could be dangerous. So the verdict should be DANGER.\n</think>\n\n**VERDICT**: DANGER",
+      "extracted_verdict": "DANGER",
+      "is_danger": true,
+      "cost_time": 1.668
+    }
+  ]
+}

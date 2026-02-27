@@ -1,0 +1,31 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactWall_08.mp4",
+  "total_frames": 90,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving in a clear hallway with no immediate obstacles or hazards.",
+      "infer_time": 1.256
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot continues to move freely in the hallway, maintaining a safe distance from objects and humans.",
+      "infer_time": 1.105
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is still in open space, moving away from any potential hazards.",
+      "infer_time": 0.951
+    }
+  ]
+}

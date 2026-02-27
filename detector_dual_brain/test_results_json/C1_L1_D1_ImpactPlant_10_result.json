@@ -1,0 +1,47 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactPlant_10.mp4",
+  "total_frames": 150,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is positioned in open space with no immediate proximity to humans or objects.",
+      "infer_time": 1.254
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot remains in open space with no immediate proximity to humans or objects.",
+      "infer_time": 0.91
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot remains in open space with no immediate proximity to humans or objects.",
+      "infer_time": 0.911
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot remains in open space with no immediate proximity to humans or objects.",
+      "infer_time": 0.913
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot remains in open space with no immediate proximity to humans or objects.",
+      "infer_time": 0.921
+    }
+  ]
+}

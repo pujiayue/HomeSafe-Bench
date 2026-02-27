@@ -1,0 +1,52 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/0__zzl_1.mp4",
+  "total_frames": 192,
+  "stop_info": {
+    "stop_reason": "fast_brain_red",
+    "danger_timestamp": 4.0,
+    "actual_stop_time": 5.319278001785278,
+    "latency": 1.3192780017852783
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is holding a glass at a safe distance from the environment, no immediate hazards present.\\\"\\n}\\n```",
+      "infer_time": 1.741
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot continues to hold the glass safely away from any objects or humans, maintaining a secure distance.\\\"\\n}\\n```",
+      "infer_time": 1.443
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is still holding the glass at a safe distance, no hazards detected.\\\"\\n}\\n```",
+      "infer_time": 1.33
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is holding the glass steadily, maintaining a safe distance from surroundings.\\\"\\n}\\n```",
+      "infer_time": 1.306
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "red",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"red\\\",\\n    \\\"reason\\\": \\\"Liquid is actively splashing onto the floor, creating a spill hazard.\\\"\\n}\\n```",
+      "infer_time": 1.319
+    }
+  ]
+}

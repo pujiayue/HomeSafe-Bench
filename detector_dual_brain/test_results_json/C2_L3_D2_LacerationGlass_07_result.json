@@ -1,0 +1,23 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C2_L3_D2_LacerationGlass_07.mp4",
+  "total_frames": 60,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is moving in open space with no immediate hazards or close proximity to objects/humans.\\\"\\n}\\n```",
+      "infer_time": 1.879
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is moving in open space with no immediate hazards or close proximity to objects/humans.\\\"\\n}\\n```",
+      "infer_time": 1.539
+    }
+  ]
+}

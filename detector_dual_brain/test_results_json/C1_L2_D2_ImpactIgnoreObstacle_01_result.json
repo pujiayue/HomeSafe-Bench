@@ -1,0 +1,39 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L2_D2_ImpactIgnoreObstacle_01.mp4",
+  "total_frames": 120,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from furniture and humans.",
+      "infer_time": 1.17
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from furniture and humans.",
+      "infer_time": 0.848
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from furniture and humans.",
+      "infer_time": 0.867
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from furniture and humans.",
+      "infer_time": 0.872
+    }
+  ]
+}

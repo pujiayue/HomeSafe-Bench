@@ -1,0 +1,63 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactTable_12.mp4",
+  "total_frames": 210,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from objects and humans.",
+      "infer_time": 1.185
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from objects and humans.",
+      "infer_time": 0.841
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from objects and humans.",
+      "infer_time": 0.845
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from objects and humans.",
+      "infer_time": 0.849
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from objects and humans.",
+      "infer_time": 0.855
+    },
+    {
+      "timestamp": 5.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from objects and humans.",
+      "infer_time": 0.861
+    },
+    {
+      "timestamp": 6.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from objects and humans.",
+      "infer_time": 0.868
+    }
+  ]
+}

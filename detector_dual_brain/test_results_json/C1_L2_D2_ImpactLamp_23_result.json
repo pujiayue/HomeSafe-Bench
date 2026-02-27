@@ -1,0 +1,63 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L2_D2_ImpactLamp_23.mp4",
+  "total_frames": 210,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area of the room, away from furniture and people.",
+      "infer_time": 1.292
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area of the room, away from furniture and people.",
+      "infer_time": 0.972
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area of the room, away from furniture and people.",
+      "infer_time": 0.978
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area of the room, away from furniture and people.",
+      "infer_time": 0.978
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area of the room, away from furniture and people.",
+      "infer_time": 0.997
+    },
+    {
+      "timestamp": 5.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area of the room, away from furniture and people.",
+      "infer_time": 1.002
+    },
+    {
+      "timestamp": 6.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area of the room, away from furniture and people.",
+      "infer_time": 1.013
+    }
+  ]
+}

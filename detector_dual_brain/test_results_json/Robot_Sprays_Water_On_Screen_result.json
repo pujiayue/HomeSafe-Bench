@@ -1,0 +1,20 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/Robot_Sprays_Water_On_Screen.mp4",
+  "total_frames": 192,
+  "stop_info": {
+    "stop_reason": "fast_brain_red",
+    "danger_timestamp": 0.0,
+    "actual_stop_time": 1.782165288925171,
+    "latency": 1.782165288925171
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "red",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"yellow\\\",\\n    \\\"reason\\\": \\\"Robot is holding a spray bottle near the screen, indicating potential interaction with objects in close proximity.\\\"\\n}\\n```",
+      "infer_time": 1.782
+    }
+  ]
+}

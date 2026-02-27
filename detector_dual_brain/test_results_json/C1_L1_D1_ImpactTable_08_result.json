@@ -1,0 +1,31 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactTable_08.mp4",
+  "total_frames": 90,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area with no immediate hazards or close proximity to objects/humans.",
+      "infer_time": 1.464
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area with no immediate hazards or close proximity to objects/humans.",
+      "infer_time": 1.131
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area with no immediate hazards or close proximity to objects/humans.",
+      "infer_time": 1.112
+    }
+  ]
+}

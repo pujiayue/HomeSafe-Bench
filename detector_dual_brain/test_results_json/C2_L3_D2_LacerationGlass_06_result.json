@@ -1,0 +1,39 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C2_L3_D2_LacerationGlass_06.mp4",
+  "total_frames": 120,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area with no immediate hazards or close proximity to objects/humans.",
+      "infer_time": 1.403
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area with no immediate hazards or close proximity to objects/humans.",
+      "infer_time": 1.075
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area with no immediate hazards or close proximity to objects/humans.",
+      "infer_time": 1.081
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear area with no immediate hazards or close proximity to objects/humans.",
+      "infer_time": 1.081
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/2-Drop_Heavy_Object_0.mp4",
+  "total_frames": 192,
+  "stop_info": {
+    "stop_reason": "fast_brain_red",
+    "danger_timestamp": 0.0,
+    "actual_stop_time": 1.3991446495056152,
+    "latency": 1.3991446495056152
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "red",
+      "reason": "Robot arm is extremely close to a hot pan on a stove, posing an imminent burn hazard.",
+      "infer_time": 1.399
+    }
+  ]
+}

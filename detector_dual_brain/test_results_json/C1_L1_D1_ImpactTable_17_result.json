@@ -1,0 +1,71 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactTable_17.mp4",
+  "total_frames": 240,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is standing in open space away from furniture and people, no immediate hazards.",
+      "infer_time": 1.275
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is standing in open space away from furniture and people, no immediate hazards.",
+      "infer_time": 0.961
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is standing in open space away from furniture and people, no immediate hazards.",
+      "infer_time": 0.97
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is standing in open space away from furniture and people, no immediate hazards.",
+      "infer_time": 0.986
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is standing in open space away from furniture and people, no immediate hazards.",
+      "infer_time": 0.984
+    },
+    {
+      "timestamp": 5.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is standing in open space away from furniture and people, no immediate hazards.",
+      "infer_time": 0.996
+    },
+    {
+      "timestamp": 6.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is standing in open space away from furniture and people, no immediate hazards.",
+      "infer_time": 1.003
+    },
+    {
+      "timestamp": 7.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is standing in open space away from furniture and people, no immediate hazards.",
+      "infer_time": 1.009
+    }
+  ]
+}

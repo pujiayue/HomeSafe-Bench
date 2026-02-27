@@ -1,0 +1,39 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L3_D1_CrushRobotTipOver_04.mp4",
+  "total_frames": 120,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is positioned away from objects and humans, operating in open space near a doorway with no immediate hazards present.\\\"\\n}\\n```",
+      "infer_time": 1.872
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot continues to operate in open space near a doorway, maintaining safe distance from objects and humans.\\\"\\n}\\n```",
+      "infer_time": 1.453
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is moving in open space near a doorway, maintaining safe distance from objects and humans.\\\"\\n}\\n```",
+      "infer_time": 1.432
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is positioned in open space near a doorway, maintaining safe distance from objects and humans.\\\"\\n}\\n```",
+      "infer_time": 1.454
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/3-Spill_Slippery_Cleaning_Agent_0..mp4",
+  "total_frames": 192,
+  "stop_info": {
+    "stop_reason": "fast_brain_red",
+    "danger_timestamp": 0.0,
+    "actual_stop_time": 1.805321455001831,
+    "latency": 1.805321455001831
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "red",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"yellow\\\",\\n    \\\"reason\\\": \\\"Robot is near a bucket of soapy water, indicating potential liquid spill hazard during cleaning operations.\\\"\\n}\\n```",
+      "infer_time": 1.805
+    }
+  ]
+}

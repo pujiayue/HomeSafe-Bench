@@ -1,0 +1,20 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/4-Douse_Appliance_Fire_1.mp4",
+  "total_frames": 192,
+  "stop_info": {
+    "stop_reason": "fast_brain_red",
+    "danger_timestamp": 0.0,
+    "actual_stop_time": 1.666762351989746,
+    "latency": 1.666762351989746
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "red",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"red\\\",\\n    \\\"reason\\\": \\\"Active fire on laptop with visible flames and smoke, posing immediate physical danger.\\\"\\n}\\n```",
+      "infer_time": 1.667
+    }
+  ]
+}

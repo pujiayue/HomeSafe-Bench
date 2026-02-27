@@ -1,0 +1,31 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L3_D2_ImpactTV_04.mp4",
+  "total_frames": 90,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot arm is extended in open space with no immediate contact or hazardous materials nearby.",
+      "infer_time": 1.329
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot arm is still in open space, no objects or humans nearby.",
+      "infer_time": 0.919
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot arm is moving freely in open space, no hazards detected.",
+      "infer_time": 0.876
+    }
+  ]
+}

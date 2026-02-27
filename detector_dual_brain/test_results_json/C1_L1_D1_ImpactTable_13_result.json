@@ -1,0 +1,39 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactTable_13.mp4",
+  "total_frames": 120,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is positioned in open space away from furniture and humans, with no immediate hazards.",
+      "infer_time": 1.381
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving freely in open space with no objects or humans nearby.",
+      "infer_time": 0.935
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving in open space, maintaining safe distance from furniture and humans.",
+      "infer_time": 0.966
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving freely in open space with no immediate hazards.",
+      "infer_time": 0.867
+    }
+  ]
+}

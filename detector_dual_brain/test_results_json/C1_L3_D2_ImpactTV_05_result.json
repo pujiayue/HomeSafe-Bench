@@ -1,0 +1,60 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L3_D2_ImpactTV_05.mp4",
+  "total_frames": 150,
+  "stop_info": {
+    "stop_reason": "slow_brain_confirmed",
+    "danger_timestamp": 4.0,
+    "actual_stop_time": 6.095886707305908,
+    "latency": 2.095886707305908
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from furniture and humans.",
+      "infer_time": 1.155
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from furniture and humans.",
+      "infer_time": 0.84
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from furniture and humans.",
+      "infer_time": 0.84
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in open space, far from furniture and humans.",
+      "infer_time": 0.847
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "yellow",
+      "reason": "Robot arm is dropping a large object onto the floor.",
+      "infer_time": 0.821
+    },
+    {
+      "trigger_timestamp": 4.0,
+      "type": "slow_brain",
+      "verdict_text": "Got it, let's look at the frames. The robot is moving, and in the 4.0s frame, it seems to have fallen or dropped something. Wait, the task is to check if it's a latent hazard or accident. But the critical rule is speed. Wait, the robot's action—looking at the frames, the robot's movement might cause a hazard. Wait, in the 4.0s frame, the robot is on the floor? Wait, no, the robot's position. Wait, the key is to see if the action leads to an accident. The robot's movement: from 1.0s to 4.0s, the robot's arm moves, and in 4.0s, it's on the floor. So that's an accident. So the verdict is DANGER.\n</think>\n\n**VERDICT**: DANGER",
+      "extracted_verdict": "DANGER",
+      "is_danger": true,
+      "cost_time": 2.096
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L3_D1_CrushRobotTipOver_01.mp4",
+  "total_frames": 180,
+  "stop_info": {
+    "stop_reason": "slow_brain_confirmed",
+    "danger_timestamp": 3.0,
+    "actual_stop_time": 4.529898405075073,
+    "latency": 1.5298984050750732
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot is positioned in open space away from furniture and people, no immediate hazards present.\\\"\\n}\\n```",
+      "infer_time": 1.759
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot continues to move in open space, maintaining safe distance from objects and humans.\\\"\\n}\\n```",
+      "infer_time": 1.374
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"Robot remains in open area, no objects or humans nearby, safe environment.\\\"\\n}\\n```",
+      "infer_time": 1.338
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "yellow",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"yellow\\\",\\n    \\\"reason\\\": \\\"Robot arm is extending towards a chair, indicating potential close interaction with an object.\\\"\\n}\\n```",
+      "infer_time": 1.379
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 10.0,
+      "category": "yellow",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"yellow\\\",\\n    \\\"reason\\\": \\\"Robot arm is in close proximity to the chair, posing a potential risk of contact or collision.\\\"\\n}\\n```",
+      "infer_time": 1.769
+    },
+    {
+      "trigger_timestamp": 3.0,
+      "type": "slow_brain",
+      "verdict_text": "Got it, let's look at the frames. The robot is moving, and in the 3.0s frame, it's leaning back a lot. Wait, the task is to check if it's a latent hazard or accident. The robot's movement—especially the tilt—might be unstable. Since speed is life, and the robot is tilting, that could lead to an accident. So the verdict is DANGER.\n</think>\n\n**VERDICT**: DANGER",
+      "extracted_verdict": "DANGER",
+      "is_danger": true,
+      "cost_time": 1.53
+    }
+  ]
+}

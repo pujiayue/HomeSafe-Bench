@@ -1,0 +1,55 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C2_L3_D2_LacerationGlass_01.mp4",
+  "total_frames": 180,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is in a clear hallway area, no immediate proximity to humans or objects.",
+      "infer_time": 1.331
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving through a hallway with no immediate hazards or close proximity to objects/humans.",
+      "infer_time": 1.063
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving through a hallway with no immediate hazards or close proximity to objects/humans.",
+      "infer_time": 1.066
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving through a hallway with no immediate hazards or close proximity to objects/humans.",
+      "infer_time": 1.087
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving through a hallway with no immediate hazards or close proximity to objects/humans.",
+      "infer_time": 1.088
+    },
+    {
+      "timestamp": 5.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "Robot is moving through a hallway with no immediate hazards or close proximity to objects/humans.",
+      "infer_time": 1.1
+    }
+  ]
+}

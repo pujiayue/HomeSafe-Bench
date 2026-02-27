@@ -1,0 +1,20 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/Case49_55s-1m04s__zzl_2.mp4",
+  "total_frames": 270,
+  "stop_info": {
+    "stop_reason": "fast_brain_red",
+    "danger_timestamp": 0.0,
+    "actual_stop_time": 1.270630121231079,
+    "latency": 1.270630121231079
+  },
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "red",
+      "reason": "Knife is actively cutting into a wooden board, creating a physical hazard of injury.",
+      "infer_time": 1.271
+    }
+  ]
+}

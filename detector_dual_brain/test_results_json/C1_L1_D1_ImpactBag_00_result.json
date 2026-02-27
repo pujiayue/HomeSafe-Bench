@@ -1,0 +1,95 @@
+{
+  "video_path": "/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/C1_L1_D1_ImpactBag_00.mp4",
+  "total_frames": 330,
+  "stop_info": null,
+  "logs": [
+    {
+      "timestamp": 0.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"The robot is in a clear area with no immediate proximity to objects or humans, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.869
+    },
+    {
+      "timestamp": 1.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"The robot remains in a clear area with no immediate proximity to objects or humans, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.53
+    },
+    {
+      "timestamp": 2.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"The robot is in a clear area with no immediate proximity to objects or humans, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.536
+    },
+    {
+      "timestamp": 3.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"The robot is in a clear area with no immediate proximity to objects or humans, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.547
+    },
+    {
+      "timestamp": 4.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"The robot is in a clear area with no immediate proximity to objects or humans, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.561
+    },
+    {
+      "timestamp": 5.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"The robot is in a clear area with no immediate proximity to objects or humans, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.576
+    },
+    {
+      "timestamp": 6.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"The robot is in a clear area with no immediate proximity to objects or humans, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.591
+    },
+    {
+      "timestamp": 7.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"The robot is in a clear area with no immediate proximity to objects or humans, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.605
+    },
+    {
+      "timestamp": 8.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"The robot is in a clear area with no immediate proximity to objects or humans, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.624
+    },
+    {
+      "timestamp": 9.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"The robot is in a clear area with no immediate proximity to objects or humans, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.634
+    },
+    {
+      "timestamp": 10.0,
+      "type": "fast_brain",
+      "freq": 1.0,
+      "category": "green",
+      "reason": "```json\\n{\\n    \\\"category\\\": \\\"green\\\",\\n    \\\"reason\\\": \\\"The robot is in a clear area with no immediate proximity to objects or humans, maintaining a safe distance.\\\"\\n}\\n```",
+      "infer_time": 1.651
+    }
+  ]
+}
