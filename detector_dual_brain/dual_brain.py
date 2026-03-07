@@ -19,14 +19,14 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # --- 全局配置 ---
-DEVICE_FAST = "cuda:3"
+DEVICE_FAST = "cuda:4"
 VLLM_API_URL = "http://localhost:8000/v1"
 VLLM_API_KEY = "EMPTY"
 SLOW_BRAIN_MODEL_NAME = "Qwen3-VL-30B" 
 
 # 动态帧率配置
 FREQ_IDLE = 1.0    # 慢帧率 (Green)
-FREQ_ACTIVE = 10.0 # 快帧率 (Yellow/Red)
+FREQ_ACTIVE = 5.0 # 快帧率 (Yellow/Red)
 
 class FastBrain:
     def __init__(self, device):
