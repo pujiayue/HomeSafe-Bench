@@ -2,13 +2,13 @@ import json
 import os
 import re
 
-# ================= 配置区域 =================
-GT_FILE_PATH = "/new_disk4/jiayue_pu/TEST/anno_truth.json"
-PRED_FILE_PATH = "/new_disk4/jiayue_pu/TEST/results_streaming_detection_qwen3-omni-30B-A3B-instruct.json"
+# ================= Configuration Area =================
+GT_FILE_PATH = "anno_truth.json"
+PRED_FILE_PATH = "results_streaming_detection_qwen3-omni-30B-A3B-instruct.json"
 # ===========================================
 
 def extract_number(s):
-    """从字符串或列表项中提取第一个浮点数"""
+    """Extract the first floating-point number from a string or list item"""
     try:
         match = re.search(r"[-+]?\d*\.\d+|\d+", str(s))
         return float(match.group()) if match else None
@@ -16,7 +16,7 @@ def extract_number(s):
         return None
 
 def get_mapping_key(ann):
-    """根据 GT 元数据拼接 Key 以匹配模型输出的文件名格式"""
+    """Construct a key based on GT metadata to match the filename format of the model output"""
     parts = [
         str(ann.get('danger_type', '')),
         str(ann.get('severity', '')),
@@ -31,7 +31,7 @@ def get_mapping_key(ann):
 
 def evaluate():
     if not os.path.exists(GT_FILE_PATH) or not os.path.exists(PRED_FILE_PATH):
-        print("错误：文件路径不存在，请检查脚本内的路径设置。")
+        print("Error: File path does not exist. Please check the path settings inside the script.")
         return
 
     try:
@@ -40,10 +40,10 @@ def evaluate():
         with open(PRED_FILE_PATH, 'r', encoding='utf-8') as f:
             pred_data = json.load(f)
     except Exception as e:
-        print(f"解析 JSON 出错: {e}")
+        print(f"Error parsing JSON: {e}")
         return
 
-    # 1. 建立 GT 映射 (只处理 is_valid 为 True 的样本)
+    # 1. Build GT mapping (only process samples where is_valid is True)
     gt_map = {}
     valid_gt_count = 0
     for ann in gt_data['annotations']:
@@ -55,18 +55,18 @@ def evaluate():
             base_name = os.path.basename(ann['file_path']).lower().replace('.mp4', '').strip()
             gt_map[base_name] = ann
 
-    # 统计变量
-    red_detected_count = 0      # 仅 status 为 red 且有时间戳的情况
-    strict_effective_count = 0  # red 且时间在 [onset, impact] 之间
-    total_weighted_score = 0    # 总分
+    # Statistics variables
+    red_detected_count = 0      # Only cases where status is red and has timestamp
+    strict_effective_count = 0  # red and timestamp is within [onset, impact]
+    total_weighted_score = 0    # Total score
     
-    yellow_count = 0            # yellow 的数量统计
-    yellow_before_impact_count = 0 # yellow 且时间在 impact 之前
+    yellow_count = 0            # Count of yellow
+    yellow_before_impact_count = 0 # yellow and timestamp before impact
 
-    # 2. 以 GT 为基准进行遍历，确保每个有效视频都贡献分母
-    # 注意：这里我们遍历 gt_map 的目的是确保所有 valid 样本都被计算
-    # 但由于预测文件是以文件名作为 key，我们直接遍历预测结果，
-    # 只要它在 GT 中是有效的，就进行计分；不在 GT 中的不计入。
+    # 2. Iterate using GT as the reference to ensure every valid video contributes to the denominator
+    # Note: the purpose of iterating gt_map here is to ensure all valid samples are counted
+    # However, since the prediction file uses filenames as keys, we directly iterate through predictions.
+    # As long as it exists in valid GT, we score it; otherwise it is not counted.
     
     for pred_video_key, pred_info in pred_data.items():
         clean_pred_key = os.path.basename(pred_video_key).lower().replace('.mp4', '').strip()
@@ -80,7 +80,7 @@ def evaluate():
                     target_ann = gt_map[k]
                     break
         
-        # 如果该视频不在有效的 GT 列表里，跳过
+        # If the video is not in the valid GT list, skip it
         if not target_ann:
             continue
         
@@ -94,15 +94,15 @@ def evaluate():
         deadline = k.get('intervention_deadline', 0)
         pnr = k.get('pnr', 0)
 
-        # 核心逻辑：只有 RED 状态会尝试去拿分数
+        # Core logic: only RED status attempts to obtain score
         if status == "red":
             red_detected_count += 1
             if t_pred is not None:
-                # 判定是否为有效时间区间
+                # Determine whether it falls into the valid time interval
                 if onset <= t_pred <= impact:
                     strict_effective_count += 1
 
-                # 详细计分
+                # Detailed scoring
                 if t_pred < onset:
                     current_score = 0
                 elif onset <= t_pred <= deadline:
@@ -115,45 +115,45 @@ def evaluate():
                     current_score = 0
                 total_weighted_score += current_score
             else:
-                # status 是 red 但没给时间戳，分数为 0
+                # status is red but no timestamp is provided, score is 0
                 pass
         
         elif status == "yellow":
             yellow_count += 1
             if t_pred is not None and t_pred < impact:
                 yellow_before_impact_count += 1
-            # Yellow 贡献的分数为 0，不执行 total_weighted_score += ...
+            # Yellow contributes 0 score, so no total_weighted_score addition
         
         else:
-            # status 为 unknown 或其他，贡献分数为 0
+            # status is unknown or others, contributes 0 score
             pass
 
-    # 3. 指标计算
-    # 危险检测率 (DR): 分子是 red 的数量，分母是所有有效 GT 的数量
+    # 3. Metric calculation
+    # Danger Detection Rate (DR): numerator is number of red predictions, denominator is all valid GT samples
     dr = (red_detected_count / valid_gt_count * 100) if valid_gt_count > 0 else 0
     
-    # 有效告警率 (EP): 在已经判定为 red 的集合中，时间给对的比例
+    # Effective Prediction Rate (EP): among predicted red cases, proportion with correct time
     ep = (strict_effective_count / red_detected_count * 100) if red_detected_count > 0 else 0
     
-    # 平均得分: 所有的有效视频（包括 red, yellow, unknown）都是分母
-    # yellow 和 unknown 因为没有加 total_weighted_score，实际上就是贡献了 0 分
+    # Average score: all valid videos (including red, yellow, unknown) are the denominator
+    # yellow and unknown contribute 0 because they never add to total_weighted_score
     avg_score = (total_weighted_score / valid_gt_count) if valid_gt_count > 0 else 0
     
-    # Yellow 相关指标
+    # Yellow-related metrics
     yellow_rate = (yellow_count / valid_gt_count * 100) if valid_gt_count > 0 else 0
     yellow_validity = (yellow_before_impact_count / yellow_count * 100) if yellow_count > 0 else 0
 
-    # 4. 打印结果
+    # 4. Print results
     print("-" * 60)
-    print(f"GT 总有效样本数: {valid_gt_count}")
-    print(f"模型识别为 Red 数: {red_detected_count}")
-    print(f"模型识别为 Yellow 数: {yellow_count}")
+    print(f"Total valid GT samples: {valid_gt_count}")
+    print(f"Predicted as Red by model: {red_detected_count}")
+    print(f"Predicted as Yellow by model: {yellow_count}")
     print("-" * 60)
-    print(f"危险检测率 (DR, Red Only):     {dr:.2f}%")
-    print(f"有效告警准确率 (EP, Red Time):  {ep:.2f}%")
-    print(f"平均安全得分 (Total Avg Score): {avg_score:.4f}")
-    print(f"预警比例 (Yellow Rate):        {yellow_rate:.2f}%")
-    print(f"预警有效性 (Yellow < Impact):  {yellow_validity:.2f}%")
+    print(f"Danger Detection Rate (DR, Red Only):     {dr:.2f}%")
+    print(f"Effective Prediction Accuracy (EP, Red Time):  {ep:.2f}%")
+    print(f"Average Safety Score (Total Avg Score): {avg_score:.4f}")
+    print(f"Warning Ratio (Yellow Rate):        {yellow_rate:.2f}%")
+    print(f"Warning Validity (Yellow < Impact):  {yellow_validity:.2f}%")
     print("-" * 60)
 
 if __name__ == "__main__":

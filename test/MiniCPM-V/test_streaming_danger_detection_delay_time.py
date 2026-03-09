@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-基于 MiniCPM-o 2.6 Streaming Inference 的危险行为检测脚本 (带延迟统计)
+Dangerous Behavior Detection Script Based on MiniCPM-o 2.6 Streaming Inference (with Latency Statistics)
 
-使用方法:
+Usage:
     python test_streaming_danger_detection.py --video_dir /path/to/videos --output_json results.json
 """
 
@@ -12,7 +12,7 @@ import glob
 import json
 import re
 import math
-import time  # 新增：用于计算延迟
+import time  # Added: used to calculate latency
 import numpy as np
 import argparse
 from PIL import Image
@@ -23,30 +23,30 @@ import soundfile as sf
 import torch
 from transformers import AutoModel, AutoTokenizer
 
-# ================= 配置参数 =================
+# ================= Configuration Parameters =================
 MODEL_NAME = 'openbmb/MiniCPM-o-2_6'
 model_tag = "minicpm-o-2.6-streaming"
 
-# 检测参数
-ASK_EVERY = 1  # 每 N 秒询问一次是否危险
-MAX_SECONDS = 600  # 每个视频最大处理时长（秒）
+# Detection parameters
+ASK_EVERY = 1  # Ask once every N seconds whether it is dangerous
+MAX_SECONDS = 600  # Maximum processing duration per video (seconds)
 
-# ================= 工具函数 =================
+# ================= Utility Functions =================
 
 def get_video_chunk_content(video_path, flatten=False, max_seconds=None):
     """
-    将视频按秒切分成 OTDM 单元
+    Split the video into OTDM units by second
     """
     video = VideoFileClip(video_path)
     duration = video.duration
     # print(f'  Video duration: {duration:.2f}s')
     
-    # 限制最大时长
+    # Limit maximum duration
     if max_seconds is not None:
         duration = min(duration, max_seconds)
         # print(f'  Processing first {duration:.2f}s')
     
-    # 提取音频
+    # Extract audio
     audio_np = None
     sr = 16000
     if video.audio is not None:
@@ -60,15 +60,15 @@ def get_video_chunk_content(video_path, flatten=False, max_seconds=None):
             )
             audio_np, sr = librosa.load(temp_audio_file_path, sr=sr, mono=True)
     
-    num_units = math.ceil(duration)  # 向上取整，得到秒数
+    num_units = math.ceil(duration)  # Round up to get seconds
     
     contents = []
     for i in range(num_units):
-        t = i + 1  # 从第 1 秒开始
+        t = i + 1  # Start from the 1st second
         if t > duration:
             break
             
-        # 获取该秒的帧
+        # Get frame at this second
         try:
             frame = video.get_frame(t)
             image = Image.fromarray(frame.astype(np.uint8))
@@ -76,7 +76,7 @@ def get_video_chunk_content(video_path, flatten=False, max_seconds=None):
             print(f"  Warning: Failed to get frame at {t}s: {e}")
             continue
         
-        # 提取对应 1 秒的音频
+        # Extract corresponding 1-second audio
         audio = None
         if audio_np is not None:
             start_idx = int(i * sr)
@@ -89,7 +89,7 @@ def get_video_chunk_content(video_path, flatten=False, max_seconds=None):
                 if available > 0:
                     audio[:available] = audio_np[start_idx:]
         
-        # 构造 OTDM 单元
+        # Construct OTDM unit
         if flatten:
             contents.extend(["<unit>", image, audio] if audio is not None else ["<unit>", image])
         else:
@@ -102,38 +102,38 @@ def get_video_chunk_content(video_path, flatten=False, max_seconds=None):
 
 def parse_danger_response(response_text, current_time_range):
     """
-    解析模型响应，提取危险信息
+    Parse the model response and extract danger information
     """
     lower_text = response_text.lower()
     
-    # 查找 verdict 部分
+    # Find verdict section
     verdict_section = response_text
     if "[verdict]" in lower_text:
         verdict_section = response_text[lower_text.find("[verdict]"):]
     elif "part 2" in lower_text:
         verdict_section = response_text[lower_text.find("part 2"):]
     
-    # 检查是否安全
+    # Check whether it is safe
     is_safe = "safe" in verdict_section.lower()
     
     if is_safe:
         return False, None
     
-    # 尝试提取时间戳
+    # Try extracting timestamp
     start_time, end_time = current_time_range
     
-    # 首先尝试浮点数
+    # First try floating numbers
     timestamps = re.findall(r"(\d+\.\d+)", verdict_section)
     if not timestamps:
-        # 然后尝试整数
+        # Then try integers
         timestamps = re.findall(r"(\d+)", verdict_section)
-        # 过滤掉可能是 "Part 2" 中的 "2"
+        # Filter possible "2" from "Part 2"
         timestamps = [t for t in timestamps if t != "2" or len(timestamps) == 1]
     
     if timestamps:
         try:
             danger_time = float(timestamps[0])
-            # 验证时间戳是否在有效范围内
+            # Validate whether timestamp is within valid range
             if start_time <= danger_time <= end_time:
                 return True, danger_time
             else:
@@ -143,14 +143,14 @@ def parse_danger_response(response_text, current_time_range):
         except ValueError:
             pass
     
-    # 如果检测到危险但无法提取时间戳，返回当前窗口的中点
+    # If danger detected but timestamp cannot be extracted, return midpoint of current window
     if not is_safe:
         return True, (start_time + end_time) / 2.0
     
     return False, None
 
 
-# ================= 危险检测提示词 =================
+# ================= Danger Detection Prompts =================
 
 SAFETY_SYSTEM_PROMPT = (
     "You are the core AI of a Home Safety Early Warning System. "
@@ -178,34 +178,34 @@ DETECTION_PROMPT = (
 )
 
 
-# ================= 流式危险检测主函数 =================
+# ================= Streaming Danger Detection Main Function =================
 
 def analyze_video_streaming(video_path, model, tokenizer, ask_every=1, max_seconds=None):
     """
-    使用 Streaming Inference 进行流式危险检测，并计算延迟
+    Perform streaming danger detection using Streaming Inference and calculate latency
     
     Returns:
         (is_dangerous, timestamp, response, metrics_dict)
     """
-    print(f"\n🎬 开始流式分析: {os.path.basename(video_path)}")
+    print(f"\n🎬 Start streaming analysis: {os.path.basename(video_path)}")
     
-    # 1. 重置 session
+    # 1. Reset session
     model.reset_session()
     session_id = os.path.basename(video_path)
     
-    # 2. 获取视频内容块
+    # 2. Get video content chunks
     contents = get_video_chunk_content(video_path, flatten=False, max_seconds=max_seconds)
     if not contents:
-        print("  ❌ 无法提取视频内容")
+        print("  ❌ Unable to extract video content")
         return False, None, "Error: No content extracted", {}
     
     num_units = len(contents)
-    print(f"  📊 视频切分为 {num_units} 个单元")
+    print(f"  📊 Video split into {num_units} units")
     
-    # --- 开始计时 ---
+    # --- Start timing ---
     start_wall_time = time.time()
     
-    # 3. Prefill 系统提示
+    # 3. Prefill system prompt
     sys_msg = model.get_sys_prompt(mode='omni', language='en')
     try:
         model.streaming_prefill(
@@ -216,7 +216,7 @@ def analyze_video_streaming(video_path, model, tokenizer, ask_every=1, max_secon
     except Exception as e:
         return False, None, f"Error: {e}", {}
     
-    # 4. 逐秒处理
+    # 4. Process second by second
     first_danger_timestamp = None
     first_danger_response = None
     processed_units = 0
@@ -226,9 +226,9 @@ def analyze_video_streaming(video_path, model, tokenizer, ask_every=1, max_secon
         current_time_range = (0.0, current_time)
         processed_units = current_time
         
-        print(f"\r  🔍 处理进度: {current_time}/{num_units}s", end="")
+        print(f"\r  🔍 Processing progress: {current_time}/{num_units}s", end="")
         
-        # 4.1 Prefill 当前单元
+        # 4.1 Prefill current unit
         try:
             msgs = [{"role": "user", "content": content}]
             model.streaming_prefill(
@@ -237,10 +237,10 @@ def analyze_video_streaming(video_path, model, tokenizer, ask_every=1, max_secon
                 tokenizer=tokenizer
             )
         except Exception as e:
-            print(f"\n  ❌ Prefill 单元失败: {e}")
+            print(f"\n  ❌ Prefill unit failed: {e}")
             continue
         
-        # 4.2 询问
+        # 4.2 Ask question
         if current_time % ask_every == 0 or i == len(contents) - 1:
             formatted_system = SAFETY_SYSTEM_PROMPT.format(start=0.0, end=current_time)
             question_msg = {
@@ -268,18 +268,18 @@ def analyze_video_streaming(video_path, model, tokenizer, ask_every=1, max_secon
                     else:
                         response_text += str(r)
                 
-                # 解析响应
+                # Parse response
                 is_dangerous, danger_time = parse_danger_response(response_text, current_time_range)
                 
                 if is_dangerous and danger_time is not None:
-                    # --- 危险检测到，停止计时 ---
+                    # --- Danger detected, stop timing ---
                     end_wall_time = time.time()
                     wall_time_cost = end_wall_time - start_wall_time
                     
                     first_danger_timestamp = danger_time
                     first_danger_response = response_text
                     
-                    print(f"\n  ⚠️  检测到危险！时间戳: {danger_time:.2f}s")
+                    print(f"\n  ⚠️  Danger detected! Timestamp: {danger_time:.2f}s")
                     
                     metrics = {
                         "wall_time_cost": round(wall_time_cost, 3),
@@ -290,43 +290,43 @@ def analyze_video_streaming(video_path, model, tokenizer, ask_every=1, max_secon
                     return True, first_danger_timestamp, first_danger_response, metrics
                     
             except Exception as e:
-                print(f"\n  ❌ 生成响应失败: {e}")
+                print(f"\n  ❌ Response generation failed: {e}")
                 continue
     
-    # --- 视频结束，未检测到危险 ---
+    # --- Video ended, no danger detected ---
     end_wall_time = time.time()
     wall_time_cost = end_wall_time - start_wall_time
     
     metrics = {
         "wall_time_cost": round(wall_time_cost, 3),
         "video_timestamp": None,
-        "latency": None, # 安全视频没有"危险发生时刻"，因此没有针对危险的延迟
+        "latency": None, # Safe videos do not have a "danger occurrence time", therefore no latency relative to danger
         "processed_video_duration": processed_units
     }
     
-    print(f"\n  ✅ 视频安全")
+    print(f"\n  ✅ Video is safe")
     return False, None, None, metrics
 
 
-# ================= 批量测试主函数 =================
+# ================= Batch Testing Main Function =================
 
 def main():
-    parser = argparse.ArgumentParser(description='MiniCPM-o 2.6 流式危险检测')
+    parser = argparse.ArgumentParser(description='MiniCPM-o 2.6 Streaming Danger Detection')
     parser.add_argument('--video_dir', type=str, 
                        default='/new_disk4/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp',
-                       help='视频目录路径')
+                       help='Video directory path')
     parser.add_argument('--output_json', type=str,
                        default=f'results_zero_shot_{model_tag}_delay_time.json',
-                       help='输出 JSON 文件路径')
-    parser.add_argument('--ask_every', type=int, default=1, help='每 N 秒询问一次')
-    parser.add_argument('--max_seconds', type=int, default=600, help='最大处理时长')
-    parser.add_argument('--model_path', type=str, default=MODEL_NAME, help='模型路径')
+                       help='Output JSON file path')
+    parser.add_argument('--ask_every', type=int, default=1, help='Ask once every N seconds')
+    parser.add_argument('--max_seconds', type=int, default=600, help='Maximum processing duration')
+    parser.add_argument('--model_path', type=str, default=MODEL_NAME, help='Model path')
     
     args = parser.parse_args()
     
-    # 加载模型
+    # Load model
     print("="*80)
-    print(f"🚀 加载模型: {args.model_path}")
+    print(f"🚀 Loading model: {args.model_path}")
     print("="*80)
     
     model = AutoModel.from_pretrained(
@@ -338,20 +338,20 @@ def main():
     model = model.eval().cuda()
     tokenizer = AutoTokenizer.from_pretrained(args.model_path, trust_remote_code=True)
     
-    print("✅ 模型加载完成！\n")
+    print("✅ Model loading completed!\n")
     
-    # 加载已有结果
+    # Load existing results
     final_results = {}
     if os.path.exists(args.output_json):
         try:
             with open(args.output_json, 'r', encoding='utf-8') as f:
                 final_results = json.load(f)
-            print(f"📂 已加载 {len(final_results)} 条现有记录\n")
+            print(f"📂 Loaded {len(final_results)} existing records\n")
         except Exception:
             pass
     
     video_files = sorted(glob.glob(os.path.join(args.video_dir, "*.mp4")))
-    print(f"📹 找到 {len(video_files)} 个视频文件\n")
+    print(f"📹 Found {len(video_files)} video files\n")
     
     processed_count = 0
     
@@ -362,7 +362,7 @@ def main():
             continue
         
         print("\n" + "="*80)
-        print(f"🎬 处理视频: {filename}")
+        print(f"🎬 Processing video: {filename}")
         print("="*80)
         
         try:
@@ -374,7 +374,7 @@ def main():
                 max_seconds=args.max_seconds
             )
             
-            # 构造输出格式
+            # Construct output format
             result_entry = {
                 "is_dangerous": is_dangerous,
                 "video_path": video_file
@@ -385,7 +385,7 @@ def main():
                 result_entry["latency_metrics"] = metrics
                 result_entry["response"] = danger_response
             else:
-                # 安全视频也记录 metrics，虽然 timestamp 为 null
+                # Safe videos also record metrics even though timestamp is null
                 result_entry["timestamp"] = None
                 result_entry["latency_metrics"] = metrics
                 result_entry["response"] = "Safe"
@@ -393,16 +393,16 @@ def main():
             final_results[filename] = result_entry
             processed_count += 1
             
-            # 实时保存
+            # Save in real time
             with open(args.output_json, 'w', encoding='utf-8') as f:
                 json.dump(final_results, f, ensure_ascii=False, indent=4)
             
-            # 打印简要延迟信息
+            # Print brief latency info
             if is_dangerous:
                 print(f"  ⏱️  Wall Time: {metrics['wall_time_cost']}s | Latency: {metrics['latency']}s")
             
         except Exception as e:
-            print(f"\n❌ 处理视频失败: {e}")
+            print(f"\n❌ Failed to process video: {e}")
             import traceback
             traceback.print_exc()
             final_results[filename] = {
@@ -414,8 +414,8 @@ def main():
                 json.dump(final_results, f, ensure_ascii=False, indent=4)
 
     print("\n" + "="*80)
-    print(f"✅ 测试完成！共处理 {processed_count} 个新视频")
-    print(f"📄 结果已保存至: {args.output_json}")
+    print(f"✅ Testing completed! {processed_count} new videos processed")
+    print(f"📄 Results saved to: {args.output_json}")
     print("="*80)
 
 if __name__ == "__main__":

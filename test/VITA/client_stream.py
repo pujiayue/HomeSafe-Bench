@@ -8,7 +8,7 @@ import os
 
 # 配置区
 SERVER_URL = 'http://127.0.0.1:8081'
-TEST_VIDEO = '/new_disk1/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/Robot_Cleans_Stovetop_Catches_Fire.mp4'
+TEST_VIDEO = '/new_disk1/jiayue_pu/MERGED_DATASETS_FINAL_TimeStamp/357_C3_L3_D1.mp4'
 STREAM_FPS = 2.0  # 每秒向服务端推2帧画面，模拟摄像头
 
 sio = socketio.Client()

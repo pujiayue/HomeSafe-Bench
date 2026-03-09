@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-适配 MiniCPM-o 4.5 Streaming Inference 的危险行为检测脚本
-新增：推理耗时与延迟分析功能
+Dangerous behavior detection script adapted for MiniCPM-o 4.5 Streaming Inference
+New: inference time cost and latency analysis functionality
 """
 
 import os
@@ -10,7 +10,7 @@ import glob
 import json
 import re
 import math
-import time  # 新增：用于计算实际时间
+import time  # New: used to calculate actual time
 import numpy as np
 import argparse
 from PIL import Image
@@ -36,11 +36,11 @@ except ImportError:
     from transformers import AutoModelForConditionalGeneration as Qwen2VLForConditionalGeneration
     from transformers import AutoProcessor
 
-# ================= 配置参数 =================
+# ================= Configuration Parameters =================
 DEFAULT_MODEL_PATH = 'YOUR_LOCAL_MODEL_DIR' 
 MODEL_TAG = "minicpm-o-4.5-streaming"
 
-# ================= 工具函数 =================
+# ================= Utility Functions =================
 
 def get_video_chunk_content(video_path, max_seconds=None):
     video = VideoFileClip(video_path)
@@ -112,7 +112,7 @@ def parse_danger_response(response_text, current_time_range):
         return True, (start_time + end_time) / 2.0
     return False, None
 
-# ================= 提示词 =================
+# ================= Prompt =================
 
 SAFETY_SYSTEM_PROMPT = (
     "You are the core AI of a Home Safety Early Warning System. "
@@ -129,12 +129,12 @@ DETECTION_PROMPT = (
     "- If Dangerous: Output numerical timestamp.\n"
 )
 
-# ================= 流式分析主函数 =================
+# ================= Streaming Analysis Main Function =================
 
 def analyze_video_streaming(video_path, model, ask_every=1, max_seconds=None):
-    print(f"\n🎬 开始流式分析: {os.path.basename(video_path)}")
+    print(f"\n🎬 Start streaming analysis: {os.path.basename(video_path)}")
     
-    # 记录物理开始时间
+    # Record physical start time
     wall_start_time = time.time()
     
     model.reset_session()
@@ -163,7 +163,7 @@ def analyze_video_streaming(video_path, model, ask_every=1, max_seconds=None):
         
         current_time_in_video = i + 1
         
-        # 4.1 Prefill 数据
+        # 4.1 Prefill data
         try:
             model.streaming_prefill(
                 session_id=session_id,
@@ -173,7 +173,7 @@ def analyze_video_streaming(video_path, model, ask_every=1, max_seconds=None):
         except Exception as e:
             continue
             
-        # 4.2 询问
+        # 4.2 Ask question
         if current_time_in_video % ask_every == 0 or i == total_units - 1:
             full_prompt = SAFETY_SYSTEM_PROMPT.format(start=0.0, end=current_time_in_video) + DETECTION_PROMPT
             
@@ -195,7 +195,7 @@ def analyze_video_streaming(video_path, model, ask_every=1, max_seconds=None):
                 for text_chunk, _ in iter_gen:
                     response_text += text_chunk
                 
-                # 记录给出判定的物理时刻
+                # Record the physical moment when the decision is produced
                 wall_end_time = time.time()
                 
                 is_dangerous, danger_timestamp = parse_danger_response(response_text, (0.0, float(current_time_in_video)))
@@ -204,10 +204,10 @@ def analyze_video_streaming(video_path, model, ask_every=1, max_seconds=None):
                     first_danger_timestamp = danger_timestamp
                     first_danger_response = response_text
                     
-                    # 计算指标
+                    # Calculate metrics
                     actual_process_time = wall_end_time - wall_start_time
-                    # 延迟 = (实际物理耗时) - (视频中危险发生的时间戳)
-                    # 越接近 0 或为负数（预判）越好
+                    # Latency = (actual physical processing time) - (danger timestamp in the video)
+                    # The closer to 0 or negative (early prediction), the better
                     delay = actual_process_time - danger_timestamp
                     
                     latency_info = {
@@ -217,7 +217,7 @@ def analyze_video_streaming(video_path, model, ask_every=1, max_seconds=None):
                         "processed_video_duration": current_time_in_video
                     }
                     
-                    print(f"  ⚠️  危险! 视频时间:{danger_timestamp}s | 实际耗时:{actual_process_time:.2f}s | 延迟:{delay:.2f}s")
+                    print(f"  ⚠️  Danger! Video time:{danger_timestamp}s | Actual cost:{actual_process_time:.2f}s | Latency:{delay:.2f}s")
                     break
                 else:
                     print(f"  ✅ {current_time_in_video}s Safe")
@@ -228,7 +228,7 @@ def analyze_video_streaming(video_path, model, ask_every=1, max_seconds=None):
 
     return first_danger_timestamp is not None, first_danger_timestamp, first_danger_response, latency_info
 
-# ================= 主循环 =================
+# ================= Main Loop =================
 
 def main():
     parser = argparse.ArgumentParser()
@@ -239,7 +239,7 @@ def main():
     parser.add_argument('--max_seconds', type=int, default=600)
     args = parser.parse_args()
     
-    print(f"🚀 加载 MiniCPM-o 4.5 从: {args.model_path}")
+    print(f"🚀 Loading MiniCPM-o 4.5 from: {args.model_path}")
     model = AutoModel.from_pretrained(
         args.model_path,
         trust_remote_code=True,
@@ -276,7 +276,7 @@ def main():
             final_results[filename] = {
                 "is_dangerous": is_danger,
                 "timestamp": v_timestamp,
-                "latency_metrics": metrics, # 包含延迟信息
+                "latency_metrics": metrics, # contains latency information
                 "response": resp,
                 "video_path": video_file
             }
@@ -287,7 +287,7 @@ def main():
         except Exception as e:
             print(f"Error: {e}")
 
-    print(f"\n🎉 完成！结果保存在: {args.output_json}")
+    print(f"\n🎉 Finished! Results saved to: {args.output_json}")
 
 if __name__ == "__main__":
     main()

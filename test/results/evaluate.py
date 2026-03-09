@@ -3,17 +3,14 @@ import os
 import re
 import csv
 
-# ================= 路径配置 (仅读取) =================
 OLD_GT_PATH = "HomeSafe-Bench/test/resultsanno_truth.json"
 FINAL_GT_PATH = "HomeSafe-Bench/test/resultsanno_truth_final.json"
 PRED_DIR_PATH = "HomeSafe-Bench/test/results"
 
-# ================= 结果输出 (生成新文件) =================
 OUTPUT_CSV_NAME = "final_dynamic_evaluation_report.csv"
-# =====================================================
 
 def get_old_meta_key(item):
-    """还原模型输出 JSON 中使用的旧版拼接 Key"""
+    """Restore the old concatenated Key used in the model output JSON"""
     try:
         parts = [
             str(item.get('danger_type', '')),
@@ -27,12 +24,12 @@ def get_old_meta_key(item):
         return None
 
 def clean_key(path):
-    """清理路径或文件名：取basename、去后缀、转小写"""
+    """Clean path or filename: take basename, remove suffix, convert to lowercase"""
     if not path: return ""
     return os.path.basename(path).replace(".mp4", "").strip().lower()
 
 def parse_verdict(content):
-    """从模型回复中提取时间戳"""
+    """Extract timestamp from the model response"""
     if isinstance(content, dict):
         t = content.get("timestamp")
         if t is not None:
@@ -50,12 +47,12 @@ def to_float(val):
     except: return 0.0
 
 def run_dynamic_eval():
-    print("正在载入旧版映射关系...")
+    print("Loading old mapping relationships...")
     with open(OLD_GT_PATH, 'r', encoding='utf-8') as f:
         old_anns = json.load(f)['annotations']
     meta_to_filename = {get_old_meta_key(a): clean_key(a.get('file_path')) for a in old_anns if get_old_meta_key(a)}
 
-    print("正在载入最终版标准标注...")
+    print("Loading final standard annotations...")
     with open(FINAL_GT_PATH, 'r', encoding='utf-8') as f:
         final_anns = json.load(f)['annotations']
     
@@ -66,7 +63,7 @@ def run_dynamic_eval():
             filename_to_final_data[fname] = ann
 
     results_list = []
-    # 过滤掉 GT 文件，获取待评估的模型 json
+    # Filter out GT files and obtain model json files to be evaluated
     pred_files = [f for f in os.listdir(PRED_DIR_PATH) if f.endswith('.json') and 'anno_truth' not in f]
 
     for json_file in pred_files:
@@ -75,50 +72,50 @@ def run_dynamic_eval():
             with open(filepath, 'r', encoding='utf-8') as f:
                 model_results = json.load(f)
         except Exception as e:
-            print(f"【警告】读取文件 {json_file} 失败，已跳过。错误: {e}")
+            print(f"[Warning] Failed to read file {json_file}, skipped. Error: {e}")
             continue
 
-        # ================= 核心修复：兼容 Dict 和 List 格式 =================
+        # ================= Core Fix: compatible with Dict and List formats =================
         items_to_evaluate = []
         if isinstance(model_results, dict):
             items_to_evaluate = list(model_results.items())
         elif isinstance(model_results, list):
-            print(f"【提示】检测到文件 {json_file} 是列表格式，正在尝试自动解析...")
+            print(f"[Info] Detected that file {json_file} is in list format, attempting automatic parsing...")
             for item in model_results:
                 if isinstance(item, dict):
                     if len(item) == 1:
-                        # 处理 [{"video1.mp4": "结果"}, {"video2.mp4": "结果"}]
+                        # Handle [{"video1.mp4": "result"}, {"video2.mp4": "result"}]
                         k, v = list(item.items())[0]
                         items_to_evaluate.append((k, v))
                     else:
-                        # 处理 [{"file_path": "video1.mp4", "prediction": "..."}]
-                        # 尝试寻找包含视频文件名的 key
+                        # Handle [{"file_path": "video1.mp4", "prediction": "..."}]
+                        # Try to find keys that contain video filenames
                         k = item.get("video_name") or item.get("file_path") or item.get("id") or item.get("video_id")
                         if k:
                             items_to_evaluate.append((str(k), item))
             if not items_to_evaluate:
-                print(f"【跳过】无法识别 {json_file} 的内部结构，请检查格式。")
+                print(f"[Skipped] Cannot recognize the internal structure of {json_file}, please check the format.")
                 continue
         else:
-            print(f"【跳过】文件 {json_file} 不是字典或列表格式。")
+            print(f"[Skipped] File {json_file} is not in dictionary or list format.")
             continue
         # ====================================================================
 
         detected, effective, total_weighted_score, matched_count = 0, 0, 0, 0
         cnt_optimal, cnt_acceptable, cnt_late, cnt_useless, cnt_false_trigger = 0, 0, 0, 0, 0
 
-        # 修改这里：使用统一处理后的 items_to_evaluate
+        # Modify here: use the uniformly processed items_to_evaluate
         for m_key_raw, content in items_to_evaluate:
             m_key_clean = m_key_raw.replace(".mp4", "").strip().lower()
             
-            # A. 尝试通过旧拼接名匹配
+            # A. Try matching through the old concatenated name
             fname = meta_to_filename.get(m_key_clean)
             
-            # B. 尝试直接按文件名匹配
+            # B. Try direct filename matching
             if not fname:
                 fname = m_key_clean
 
-            # C. 查找最终版 GT
+            # C. Look up the final version GT
             final_ann = filename_to_final_data.get(fname)
             
             if final_ann:
@@ -131,7 +128,7 @@ def run_dynamic_eval():
                 pnr = to_float(k.get('pnr'))
                 impact = to_float(k.get('impact_outcome'))
 
-                # 1. 原有指标计算逻辑
+                # 1. Original metric calculation logic
                 if not is_safe and t_pred is not None:
                     detected += 1
                     if onset <= t_pred <= impact:
@@ -144,7 +141,7 @@ def run_dynamic_eval():
                     else: score = 0
                     total_weighted_score += score
                 
-                # 2. 新增指标分类逻辑
+                # 2. Newly added metric classification logic
                 if is_safe or t_pred is None:
                     cnt_useless += 1
                 else:
@@ -175,17 +172,17 @@ def run_dynamic_eval():
 
         results_list.append({
             "Model_File": json_file,
-            "Recall_Rate(%)": round(dr, 2),
-            "Precision_Rate(%)": round(ep, 2),
-            "Mean_Safety_Score": round(ms, 4),
+            "HDR(%)": round(dr, 2),
+            "EWP(%)": round(ep, 2),
+            "WSS": round(ms, 4),
             "Optimal_Rate(%)": round(rate_optimal, 2),
-            "Acceptable_Rate(%)": round(rate_acceptable, 2),
-            "Late_Rate(%)": round(rate_late, 2),
-            "Useless_Rate(%)": round(rate_useless, 2),
-            "False_Trigger_Rate(%)": round(rate_false_trigger, 2),
+            "Sub-Optimal_Rate(%)": round(rate_acceptable, 2),
+            "Irreversible_Rate(%)": round(rate_late, 2),
+            "Missed_Rate(%)": round(rate_useless, 2),
+            "Premature_Rate(%)": round(rate_false_trigger, 2),
             "Matched_Samples": matched_count
         })
-        print(f"评估完成: {json_file:<50} | 匹配分母: {matched_count}")
+        print(f"Evaluation completed: {json_file:<50} | Matched denominator: {matched_count}")
 
     if results_list:
         results_list.sort(key=lambda x: x['Mean_Safety_Score'], reverse=True)
@@ -193,7 +190,7 @@ def run_dynamic_eval():
             writer = csv.DictWriter(f, fieldnames=results_list[0].keys())
             writer.writeheader()
             writer.writerows(results_list)
-        print(f"\n批量评估完成！结果已写入: {OUTPUT_CSV_NAME}")
+        print(f"\nBatch evaluation completed! Results written to: {OUTPUT_CSV_NAME}")
 
 if __name__ == "__main__":
     run_dynamic_eval()

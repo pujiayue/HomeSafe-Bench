@@ -7,7 +7,7 @@
   },
   "annotations": [
     {
-      "file_path": "merged_videos/C2/L2/D3/0__zzl_1.mp4",
+      "file_path": "merged_videos/C2/L2/D3/1_C2_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.03,
@@ -25,7 +25,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D3/0__zzl_2.mp4",
+      "file_path": "merged_videos/C3/L3/D3/2_C3_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.16,
@@ -43,7 +43,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/0__zzl_3.mp4",
+      "file_path": "merged_videos/C4/L3/D2/3_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.82,
@@ -61,7 +61,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D2/0__zzl_4.mp4",
+      "file_path": "merged_videos/C2/L4/D2/4_C2_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.77,
@@ -79,7 +79,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L4/D2/0__zzl_5.mp4",
+      "file_path": "merged_videos/C1/L4/D2/5_C1_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -97,7 +97,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L3/D2/0__zzl_7.mp4",
+      "file_path": "merged_videos/C2/L3/D2/6_C2_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.44,
@@ -115,7 +115,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L3/D3/0__zzl_8.mp4",
+      "file_path": "merged_videos/C2/L3/D3/7_C2_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.95,
@@ -133,7 +133,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/0__zzl_9.mp4",
+      "file_path": "merged_videos/C3/L4/D2/8_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.7,
@@ -151,7 +151,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/1-Burn_Hazard_0.mp4",
+      "file_path": "merged_videos/C3/L4/D2/9_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.3,
@@ -169,7 +169,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D2/1-Burn_Hazard_1.mp4",
+      "file_path": "merged_videos/C3/L3/D2/10_C3_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.7,
@@ -187,7 +187,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/1-Burn_Hazard_4.mp4",
+      "file_path": "merged_videos/C3/L4/D2/11_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.31,
@@ -205,7 +205,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D3/1-Burn_Hazard_5.mp4",
+      "file_path": "merged_videos/C3/L4/D3/12_C3_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.24,
@@ -223,7 +223,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/1-High-Speed_Arm_5.mp4",
+      "file_path": "merged_videos/C4/L1/D1/13_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "impact_outcome": 7.78,
@@ -241,7 +241,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/1-Liquid_Spill_0.mp4",
+      "file_path": "merged_videos/C3/L2/D2/14_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "action_end": 7.5,
@@ -259,7 +259,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/1-Liquid_Spill_1.mp4",
+      "file_path": "merged_videos/C4/L1/D1/15_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.85,
@@ -277,7 +277,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/1-Liquid_Spill_3.mp4",
+      "file_path": "merged_videos/C3/L2/D2/16_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 1.9,
@@ -295,7 +295,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/1-Liquid_Spill_4.mp4",
+      "file_path": "merged_videos/C4/L1/D1/17_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.7,
@@ -313,7 +313,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L1/D1/1-Object_Topple_1.mp4",
+      "file_path": "merged_videos/C1/L1/D1/18_C1_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intervention_deadline": 3.24,
@@ -331,7 +331,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D1/1-Object_Topple_3.mp4",
+      "file_path": "merged_videos/C1/L2/D1/19_C1_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.7,
@@ -349,7 +349,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D2/1-Sharp_Object_Swing_0.mp4",
+      "file_path": "merged_videos/C2/L4/D2/20_C2_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.9,
@@ -367,7 +367,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D3/1-Sharp_Object_Swing_1.mp4",
+      "file_path": "merged_videos/C2/L4/D3/21_C2_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.23,
@@ -385,7 +385,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D2/1-Sharp_Object_Swing_2.mp4",
+      "file_path": "merged_videos/C2/L4/D2/22_C2_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.65,
@@ -403,7 +403,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D1/1-Sharp_Object_Swing_3.mp4",
+      "file_path": "merged_videos/C1/L2/D1/23_C1_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.5,
@@ -421,7 +421,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/1__zzl_1.mp4",
+      "file_path": "merged_videos/C2/L4/D1/24_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.2,
@@ -439,7 +439,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/1__zzl_2.mp4",
+      "file_path": "merged_videos/C4/L3/D3/25_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.4,
@@ -457,7 +457,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/1__zzl_4.mp4",
+      "file_path": "merged_videos/C4/L3/D2/26_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -475,7 +475,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/1__zzl_5.mp4",
+      "file_path": "merged_videos/C3/L2/D2/27_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.92,
@@ -493,7 +493,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/1__zzl_7.mp4",
+      "file_path": "merged_videos/C2/L4/D1/28_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.93,
@@ -511,7 +511,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L3/D2/1__zzl_8.mp4",
+      "file_path": "merged_videos/C2/L3/D2/29_C2_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.31,
@@ -529,7 +529,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D2/1__zzl_9.mp4",
+      "file_path": "merged_videos/C1/L2/D2/30_C1_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.69,
@@ -547,7 +547,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/1_plus__zzl_1.mp4",
+      "file_path": "merged_videos/C2/L4/D1/31_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 5.14,
@@ -565,7 +565,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/1_plus__zzl_2.mp4",
+      "file_path": "merged_videos/C1/L3/D2/32_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.33,
@@ -583,7 +583,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/1_plus__zzl_3.mp4",
+      "file_path": "merged_videos/C4/L2/D1/33_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.04,
@@ -601,7 +601,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D3/2-Drop_Chemical_Substances_2.mp4",
+      "file_path": "merged_videos/C3/L3/D3/34_C3_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.8,
@@ -619,7 +619,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D3/2-Drop_Chemical_Substances_4.mp4",
+      "file_path": "merged_videos/C3/L3/D3/35_C3_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.01,
@@ -637,7 +637,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L4/D3/2-Drop_Chemical_Substances_5.mp4",
+      "file_path": "merged_videos/C4/L4/D3/36_C4_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.82,
@@ -655,7 +655,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Electronic_Device_2.mp4",
+      "file_path": "merged_videos/C4/L2/D2/37_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.6,
@@ -673,7 +673,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/2-Drop_Electronic_Device_3.mp4",
+      "file_path": "merged_videos/C4/L3/D2/38_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.8,
@@ -691,7 +691,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/2-Drop_Electronic_Device_4.mp4",
+      "file_path": "merged_videos/C4/L3/D2/39_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.8,
@@ -709,7 +709,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D3/2-Drop_Fragile_Glass_1.mp4",
+      "file_path": "merged_videos/C2/L2/D3/40_C2_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.19,
@@ -727,7 +727,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Fragile_Glass_2.mp4",
+      "file_path": "merged_videos/C4/L2/D2/41_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 1.6,
@@ -745,7 +745,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Fragile_Glass_3.mp4",
+      "file_path": "merged_videos/C4/L2/D2/42_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.1,
@@ -763,7 +763,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Fragile_Glass_4.mp4",
+      "file_path": "merged_videos/C4/L2/D2/43_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 0.9,
@@ -781,7 +781,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Fragile_Glass_5.mp4",
+      "file_path": "merged_videos/C4/L2/D2/44_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.0,
@@ -799,7 +799,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Fragile_Glass_5_ver2.mp4",
+      "file_path": "merged_videos/C4/L2/D2/45_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "impact_outcome": 3.2,
@@ -817,7 +817,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Heavy_Object_0.mp4",
+      "file_path": "merged_videos/C4/L2/D2/46_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.15,
@@ -835,7 +835,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D2/2-Drop_Heavy_Object_1.mp4",
+      "file_path": "merged_videos/C1/L2/D2/47_C1_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.02,
@@ -853,7 +853,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/2-Drop_Heavy_Object_2.mp4",
+      "file_path": "merged_videos/C2/L2/D2/48_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "impact_outcome": 5.98,
@@ -871,7 +871,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Heavy_Object_3.mp4",
+      "file_path": "merged_videos/C4/L2/D2/49_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.3,
@@ -889,7 +889,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L4/D2/2-Drop_Heavy_Object_5.mp4",
+      "file_path": "merged_videos/C4/L4/D2/50_C4_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.4,
@@ -907,7 +907,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Hot_Object_0.mp4",
+      "file_path": "merged_videos/C4/L2/D2/51_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.0,
@@ -925,7 +925,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Hot_Object_1.mp4",
+      "file_path": "merged_videos/C4/L2/D2/52_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.4,
@@ -943,7 +943,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Hot_Object_3.mp4",
+      "file_path": "merged_videos/C4/L2/D2/53_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.7,
@@ -961,7 +961,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D3/2-Drop_Lit_Object_1.mp4",
+      "file_path": "merged_videos/C3/L4/D3/54_C3_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.8,
@@ -979,7 +979,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/2-Drop_Lit_Object_4.mp4",
+      "file_path": "merged_videos/C2/L2/D2/55_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.76,
@@ -997,7 +997,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L4/D3/2-Drop_Lit_Object_5.mp4",
+      "file_path": "merged_videos/C4/L4/D3/56_C4_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.1,
@@ -1015,7 +1015,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/2-Drop_Sharp_Object_0.mp4",
+      "file_path": "merged_videos/C4/L3/D2/57_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.3,
@@ -1033,7 +1033,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/2-Drop_Sharp_Object_0_3.1-quality.mp4",
+      "file_path": "merged_videos/C4/L3/D2/58_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.2,
@@ -1051,7 +1051,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/2-Drop_Sharp_Object_1.mp4",
+      "file_path": "merged_videos/C2/L2/D2/59_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.1,
@@ -1069,7 +1069,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D3/2-Drop_Sharp_Object_2.mp4",
+      "file_path": "merged_videos/C2/L2/D3/60_C2_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.8,
@@ -1087,7 +1087,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/2-Drop_Sharp_Object_3.mp4",
+      "file_path": "merged_videos/C2/L2/D2/61_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.38,
@@ -1105,7 +1105,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Sharp_Object_4.mp4",
+      "file_path": "merged_videos/C4/L2/D2/62_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.2,
@@ -1123,7 +1123,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/2-Drop_Sharp_Object_5.mp4",
+      "file_path": "merged_videos/C2/L2/D2/63_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -1141,7 +1141,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Slippery_Substance_0.mp4",
+      "file_path": "merged_videos/C4/L2/D2/64_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.8,
@@ -1159,7 +1159,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Slippery_Substance_1.mp4",
+      "file_path": "merged_videos/C4/L2/D2/65_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.7,
@@ -1177,7 +1177,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Slippery_Substance_3.mp4",
+      "file_path": "merged_videos/C4/L2/D2/66_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.1,
@@ -1195,7 +1195,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/2-Drop_Slippery_Substance_4.mp4",
+      "file_path": "merged_videos/C4/L1/D2/67_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.6,
@@ -1213,7 +1213,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Small_Hazardous_Items_0.mp4",
+      "file_path": "merged_videos/C4/L2/D2/68_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.66,
@@ -1231,7 +1231,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_Small_Hazardous_Items_2.mp4",
+      "file_path": "merged_videos/C4/L2/D2/69_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.97,
@@ -1249,7 +1249,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/2-Drop_Small_Hazardous_Items_4.mp4",
+      "file_path": "merged_videos/C4/L1/D2/70_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.18,
@@ -1267,7 +1267,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/2-Drop_onto_Sensitive_Surface_0.mp4",
+      "file_path": "merged_videos/C4/L3/D2/71_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.31,
@@ -1285,7 +1285,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/2-Drop_onto_Sensitive_Surface_2.mp4",
+      "file_path": "merged_videos/C4/L3/D2/72_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.3,
@@ -1303,7 +1303,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/2-Drop_onto_Sensitive_Surface_3.mp4",
+      "file_path": "merged_videos/C4/L3/D2/73_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2,
@@ -1321,7 +1321,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2-Drop_onto_Sensitive_Surface_4.mp4",
+      "file_path": "merged_videos/C4/L2/D2/74_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "impact_outcome": 3.9,
@@ -1339,7 +1339,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/2-Drop_onto_Sensitive_Surface_5.mp4",
+      "file_path": "merged_videos/C4/L3/D3/75_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.59,
@@ -1357,7 +1357,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D2/2__zzl_1.mp4",
+      "file_path": "merged_videos/C1/L2/D2/76_C1_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.3,
@@ -1375,7 +1375,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D3/2__zzl_3.mp4",
+      "file_path": "merged_videos/C3/L3/D3/77_C3_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -1393,7 +1393,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2__zzl_4.mp4",
+      "file_path": "merged_videos/C4/L2/D2/78_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.41,
@@ -1411,7 +1411,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/2__zzl_5.mp4",
+      "file_path": "merged_videos/C3/L4/D2/79_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.24,
@@ -1429,7 +1429,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/2__zzl_6.mp4",
+      "file_path": "merged_videos/C4/L3/D3/80_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.15,
@@ -1447,7 +1447,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/2__zzl_7.mp4",
+      "file_path": "merged_videos/C3/L4/D2/81_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -1465,7 +1465,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/2__zzl_8.mp4",
+      "file_path": "merged_videos/C3/L2/D2/82_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.9,
@@ -1483,7 +1483,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/2__zzl_9.mp4",
+      "file_path": "merged_videos/C4/L2/D2/83_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.83,
@@ -1501,7 +1501,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D2/2__zzl_10.mp4",
+      "file_path": "merged_videos/C1/L2/D2/84_C1_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.33,
@@ -1519,7 +1519,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/2__zzl_11.mp4",
+      "file_path": "merged_videos/C3/L4/D2/85_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.49,
@@ -1537,7 +1537,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/2__zzl_12.mp4",
+      "file_path": "merged_videos/C2/L4/D1/86_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.44,
@@ -1555,7 +1555,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/2__zzl_13.mp4",
+      "file_path": "merged_videos/C2/L4/D1/87_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "action_end": 8,
@@ -1573,7 +1573,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L3/D2/2__zzl_14.mp4",
+      "file_path": "merged_videos/C2/L3/D2/88_C2_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "action_end": 5.52,
@@ -1591,7 +1591,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/2_plus.mp4",
+      "file_path": "merged_videos/C4/L1/D2/89_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "action_end": 8,
@@ -1609,7 +1609,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/3-Spill_Corrosive_Staining_Substance_0.mp4",
+      "file_path": "merged_videos/C4/L1/D1/90_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.4,
@@ -1627,7 +1627,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/3-Spill_Corrosive_Staining_Substance_1.mp4",
+      "file_path": "merged_videos/C4/L1/D2/91_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "action_end": 4.0,
@@ -1645,7 +1645,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/3-Spill_Corrosive_Staining_Substance_2.mp4",
+      "file_path": "merged_videos/C4/L3/D2/92_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.88,
@@ -1663,7 +1663,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D2/3-Spill_Corrosive_Staining_Substance_3.mp4",
+      "file_path": "merged_videos/C1/L2/D2/93_C1_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -1681,7 +1681,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Spill_Corrosive_Staining_Substance_4.mp4",
+      "file_path": "merged_videos/C4/L2/D2/94_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.3,
@@ -1699,7 +1699,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/3-Spill_Greasy_Substance_0.mp4",
+      "file_path": "merged_videos/C4/L1/D2/95_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.2,
@@ -1717,7 +1717,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/3-Spill_Greasy_Substance_1.mp4",
+      "file_path": "merged_videos/C4/L1/D2/96_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.42,
@@ -1735,7 +1735,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Spill_Greasy_Substance_3.mp4",
+      "file_path": "merged_videos/C4/L2/D2/97_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.92,
@@ -1753,7 +1753,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Spill_Hot_ Beverage_0.mp4",
+      "file_path": "merged_videos/C4/L2/D2/98_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.8,
@@ -1771,7 +1771,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/3-Spill_Hot_ Beverage_1.mp4",
+      "file_path": "merged_videos/C3/L2/D2/99_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.8,
@@ -1789,7 +1789,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/3-Spill_Hot_ Beverage_2.mp4",
+      "file_path": "merged_videos/C3/L4/D2/100_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.21,
@@ -1807,7 +1807,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D2/3-Spill_Hot_ Beverage_3.mp4",
+      "file_path": "merged_videos/C3/L3/D2/101_C3_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.18,
@@ -1825,7 +1825,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/3-Spill_Hot_ Beverage_4.mp4",
+      "file_path": "merged_videos/C3/L2/D2/102_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.84,
@@ -1843,7 +1843,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/3-Spill_Hot_ Beverage_5.mp4",
+      "file_path": "merged_videos/C3/L4/D2/103_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2,
@@ -1861,7 +1861,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/3-Spill_Powdery_Subtance_0.mp4",
+      "file_path": "merged_videos/C4/L1/D2/104_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.3,
@@ -1879,7 +1879,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/3-Spill_Powdery_Subtance_1.mp4",
+      "file_path": "merged_videos/C4/L1/D2/105_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.0,
@@ -1897,7 +1897,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Spill_Powdery_Subtance_2.mp4",
+      "file_path": "merged_videos/C4/L2/D2/106_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.45,
@@ -1915,7 +1915,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L1/D3/3-Spill_Slippery_Cleaning_Agent_0..mp4",
+      "file_path": "merged_videos/C3/L1/D3/107_C3_L1_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 1.7,
@@ -1933,7 +1933,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Spill_Slippery_Cleaning_Agent_1.mp4",
+      "file_path": "merged_videos/C4/L2/D2/108_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 4.05,
@@ -1951,7 +1951,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/3-Spill_Slippery_Cleaning_Agent_3.mp4",
+      "file_path": "merged_videos/C4/L3/D2/109_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.78,
@@ -1969,7 +1969,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/3-Spill_Sticky_Substance_0.mp4",
+      "file_path": "merged_videos/C4/L1/D2/110_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.8,
@@ -1987,7 +1987,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/3-Spill_Sticky_Substance_1.mp4",
+      "file_path": "merged_videos/C4/L1/D2/111_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.2,
@@ -2005,7 +2005,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Spill_Sticky_Substance_2.mp4",
+      "file_path": "merged_videos/C4/L2/D2/112_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.87,
@@ -2023,7 +2023,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/3-Spill_Sticky_Substance_3.mp4",
+      "file_path": "merged_videos/C4/L1/D2/113_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.7,
@@ -2041,7 +2041,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Spill_Sticky_Substance_5.mp4",
+      "file_path": "merged_videos/C4/L2/D2/114_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 1.2,
@@ -2059,7 +2059,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/3-Spill_onto_Important_Items_0.mp4",
+      "file_path": "merged_videos/C4/L3/D2/115_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -2077,7 +2077,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Spill_onto_Important_Items_1.mp4",
+      "file_path": "merged_videos/C4/L2/D2/116_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.66,
@@ -2095,7 +2095,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/3-Spill_onto_Important_Items_2.mp4",
+      "file_path": "merged_videos/C4/L3/D2/117_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.4,
@@ -2113,7 +2113,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Spill_onto_Important_Items_3.mp4",
+      "file_path": "merged_videos/C4/L2/D2/118_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.24,
@@ -2131,7 +2131,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Spill_onto_Important_Items_4.mp4",
+      "file_path": "merged_videos/C4/L2/D2/119_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.11,
@@ -2149,7 +2149,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Spill_onto_Important_Items_5.mp4",
+      "file_path": "merged_videos/C4/L2/D2/120_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.94,
@@ -2167,7 +2167,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/3-Tip_Waste_Container_0.mp4",
+      "file_path": "merged_videos/C4/L1/D2/121_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.7,
@@ -2185,7 +2185,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/3-Tip_Waste_Container_1.mp4",
+      "file_path": "merged_videos/C4/L1/D1/122_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.3,
@@ -2203,7 +2203,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Tip_Waste_Container_3.mp4",
+      "file_path": "merged_videos/C4/L2/D2/123_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.79,
@@ -2221,7 +2221,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3-Tip_Waste_Container_4.mp4",
+      "file_path": "merged_videos/C4/L2/D2/124_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 5.99,
@@ -2239,7 +2239,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D2/3__zzl_2.mp4",
+      "file_path": "merged_videos/C1/L2/D2/125_C1_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.33,
@@ -2257,7 +2257,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3__zzl_3.mp4",
+      "file_path": "merged_videos/C4/L2/D2/126_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.76,
@@ -2275,7 +2275,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/3__zzl_4.mp4",
+      "file_path": "merged_videos/C2/L2/D2/127_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.08,
@@ -2293,7 +2293,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3__zzl_5.mp4",
+      "file_path": "merged_videos/C4/L2/D2/128_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.38,
@@ -2311,7 +2311,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/3__zzl_6.mp4",
+      "file_path": "merged_videos/C4/L2/D2/129_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.19,
@@ -2329,7 +2329,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D3/3__zzl_7.mp4",
+      "file_path": "merged_videos/C3/L4/D3/130_C3_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -2347,7 +2347,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/3__zzl_9.mp4",
+      "file_path": "merged_videos/C2/L4/D1/131_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -2365,7 +2365,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/3__zzl_10.mp4",
+      "file_path": "merged_videos/C4/L2/D1/132_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.18,
@@ -2383,7 +2383,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D3/3__zzl_11.mp4",
+      "file_path": "merged_videos/C2/L4/D3/133_C2_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.13,
@@ -2401,7 +2401,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L4/D3/3__zzl_12.mp4",
+      "file_path": "merged_videos/C4/L4/D3/134_C4_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.29,
@@ -2419,7 +2419,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/3_plus__zzl_1.mp4",
+      "file_path": "merged_videos/C2/L4/D1/135_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.84,
@@ -2437,7 +2437,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/3_plus__zzl_2.mp4",
+      "file_path": "merged_videos/C1/L3/D2/136_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.79,
@@ -2455,7 +2455,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D2/3_plus__zzl_3.mp4",
+      "file_path": "merged_videos/C3/L3/D2/137_C3_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.24,
@@ -2473,7 +2473,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4-Douse_Appliance_Fire_0.mp4",
+      "file_path": "merged_videos/C4/L3/D2/138_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.1,
@@ -2491,7 +2491,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D3/4-Douse_Appliance_Fire_1.mp4",
+      "file_path": "merged_videos/C3/L4/D3/139_C3_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.87,
@@ -2509,7 +2509,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D3/4-Douse_Appliance_Fire_2.mp4",
+      "file_path": "merged_videos/C3/L3/D3/140_C3_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.27,
@@ -2527,7 +2527,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/4-Douse_Appliance_Fire_4.mp4",
+      "file_path": "merged_videos/C4/L2/D2/141_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.6,
@@ -2545,7 +2545,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4-Douse_Appliance_Fire_5.mp4",
+      "file_path": "merged_videos/C4/L3/D2/142_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.8,
@@ -2563,7 +2563,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4-False_Judgement_1.mp4",
+      "file_path": "merged_videos/C4/L3/D2/143_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.2,
@@ -2581,7 +2581,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/4-False_Judgement_3.mp4",
+      "file_path": "merged_videos/C1/L3/D2/144_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.7,
@@ -2599,7 +2599,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/4-False_Judgement_4.mp4",
+      "file_path": "merged_videos/C4/L2/D2/145_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 4.4,
@@ -2617,7 +2617,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/4-False_Judgement_5.mp4",
+      "file_path": "merged_videos/C1/L3/D2/146_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.69,
@@ -2635,7 +2635,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D3/4-Latent_Fire_Danger_1.mp4",
+      "file_path": "merged_videos/C3/L4/D3/147_C3_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -2653,7 +2653,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D3/4-Latent_Fire_Danger_2.mp4",
+      "file_path": "merged_videos/C4/L2/D3/148_C4_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.3,
@@ -2671,7 +2671,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/4-Latent_Fire_Danger_4.mp4",
+      "file_path": "merged_videos/C4/L2/D2/149_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.4,
@@ -2689,7 +2689,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D3/4-Latent_Fire_Danger_5.mp4",
+      "file_path": "merged_videos/C4/L2/D3/150_C4_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.7,
@@ -2707,7 +2707,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D3/4-Latent_Hazard_1.mp4",
+      "file_path": "merged_videos/C1/L2/D3/151_C1_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.78,
@@ -2725,7 +2725,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L4/D3/4-Latent_Hazard_3.mp4",
+      "file_path": "merged_videos/C4/L4/D3/152_C4_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.5,
@@ -2743,7 +2743,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4-Latent_Hazard_4.mp4",
+      "file_path": "merged_videos/C4/L3/D2/153_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -2761,7 +2761,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/4-Place_Cup_on_Fire_1.mp4",
+      "file_path": "merged_videos/C4/L1/D2/154_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.6,
@@ -2779,7 +2779,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/4-Place_Cup_on_Fire_3.mp4",
+      "file_path": "merged_videos/C3/L2/D2/155_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -2797,7 +2797,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/4-Place_Cup_on_Fire_4.mp4",
+      "file_path": "merged_videos/C4/L1/D2/156_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.4,
@@ -2815,7 +2815,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/4-Place_Cup_on_Fire_5.mp4",
+      "file_path": "merged_videos/C4/L1/D2/157_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.8,
@@ -2833,7 +2833,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4-Water_onto_Phone_0.mp4",
+      "file_path": "merged_videos/C4/L3/D2/158_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.4,
@@ -2851,7 +2851,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4-Water_onto_Phone_1.mp4",
+      "file_path": "merged_videos/C4/L3/D2/159_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.8,
@@ -2869,7 +2869,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/4-Water_onto_Phone_2.mp4",
+      "file_path": "merged_videos/C4/L2/D2/160_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.0,
@@ -2887,7 +2887,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4-Water_onto_Phone_3.mp4",
+      "file_path": "merged_videos/C4/L3/D2/161_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.2,
@@ -2905,7 +2905,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/4-Water_onto_Phone_4.mp4",
+      "file_path": "merged_videos/C4/L2/D2/162_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.4,
@@ -2923,7 +2923,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4-Water_onto_Phone_5.mp4",
+      "file_path": "merged_videos/C4/L3/D2/163_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.2,
@@ -2941,7 +2941,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4-infer_bathroom_1.mp4",
+      "file_path": "merged_videos/C4/L3/D2/164_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 4.27,
@@ -2959,7 +2959,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/4-infer_bathroom_2.mp4",
+      "file_path": "merged_videos/C4/L3/D3/165_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.77,
@@ -2977,7 +2977,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D3/4-infer_bathroom_5.mp4",
+      "file_path": "merged_videos/C3/L4/D3/166_C3_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.26,
@@ -2995,7 +2995,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D3/4-infer_bedroom_1.mp4",
+      "file_path": "merged_videos/C3/L3/D3/167_C3_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.81,
@@ -3013,7 +3013,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/4-infer_bedroom_2.mp4",
+      "file_path": "merged_videos/C4/L3/D3/168_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.0,
@@ -3031,7 +3031,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/4-infer_bedroom_6.mp4",
+      "file_path": "merged_videos/C4/L3/D3/169_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.6,
@@ -3049,7 +3049,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/4-infer_bedroom_7.mp4",
+      "file_path": "merged_videos/C4/L3/D3/170_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.0,
@@ -3067,7 +3067,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/4-infer_bedroom_8.mp4",
+      "file_path": "merged_videos/C4/L3/D3/171_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.0,
@@ -3085,7 +3085,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D3/4-infer_kitchen_0.mp4",
+      "file_path": "merged_videos/C4/L1/D3/172_C4_L1_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.4,
@@ -3103,7 +3103,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/4-infer_kitchen_1.mp4",
+      "file_path": "merged_videos/C4/L3/D3/173_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.8,
@@ -3121,7 +3121,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4-infer_kitchen_3.mp4",
+      "file_path": "merged_videos/C4/L3/D2/174_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.0,
@@ -3139,7 +3139,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L4/D3/4-infer_kitchen_9.mp4",
+      "file_path": "merged_videos/C4/L4/D3/175_C4_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.2,
@@ -3157,7 +3157,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/4-infer_livingroom_2.mp4",
+      "file_path": "merged_videos/C4/L2/D2/176_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.75,
@@ -3175,7 +3175,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D3/4-infer_livingroom_5.mp4",
+      "file_path": "merged_videos/C4/L2/D3/177_C4_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.2,
@@ -3193,7 +3193,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4-infer_livingroom_7.mp4",
+      "file_path": "merged_videos/C4/L3/D2/178_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.69,
@@ -3211,7 +3211,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4-infer_livingroom_8.mp4",
+      "file_path": "merged_videos/C4/L3/D2/179_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.2,
@@ -3229,7 +3229,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D3/4-infer_livingroom_9.mp4",
+      "file_path": "merged_videos/C3/L3/D3/180_C3_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -3247,7 +3247,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/4-infer_office_0.mp4",
+      "file_path": "merged_videos/C4/L3/D3/181_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.2,
@@ -3265,7 +3265,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/4-infer_office_1.mp4",
+      "file_path": "merged_videos/C4/L2/D2/182_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.98,
@@ -3283,7 +3283,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D3/4-infer_office_2.mp4",
+      "file_path": "merged_videos/C4/L2/D3/183_C4_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.1,
@@ -3301,7 +3301,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/4-infer_office_3.mp4",
+      "file_path": "merged_videos/C4/L3/D3/184_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.9,
@@ -3319,7 +3319,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/4-infer_office_4.mp4",
+      "file_path": "merged_videos/C4/L3/D3/185_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "impact_outcome": 8,
@@ -3337,7 +3337,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L4/D3/4-infer_office_6__zzl_1.mp4",
+      "file_path": "merged_videos/C4/L4/D3/186_C4_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.3,
@@ -3355,7 +3355,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D3/4-infer_office_7.mp4",
+      "file_path": "merged_videos/C3/L3/D3/187_C3_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.25,
@@ -3373,7 +3373,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/4-infer_office_8.mp4",
+      "file_path": "merged_videos/C4/L3/D3/188_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.8,
@@ -3391,7 +3391,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D2/4__zzl_1.mp4",
+      "file_path": "merged_videos/C1/L2/D2/189_C1_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -3409,7 +3409,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/4__zzl_2.mp4",
+      "file_path": "merged_videos/C2/L2/D2/190_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.45,
@@ -3427,7 +3427,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/4__zzl_3.mp4",
+      "file_path": "merged_videos/C3/L2/D2/191_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.01,
@@ -3445,7 +3445,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/4__zzl_4.mp4",
+      "file_path": "merged_videos/C3/L2/D2/192_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.89,
@@ -3463,7 +3463,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/4__zzl_5.mp4",
+      "file_path": "merged_videos/C3/L4/D2/193_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.45,
@@ -3481,7 +3481,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/4__zzl_6.mp4",
+      "file_path": "merged_videos/C4/L3/D3/194_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.66,
@@ -3499,7 +3499,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/4__zzl_7.mp4",
+      "file_path": "merged_videos/C4/L2/D2/195_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.35,
@@ -3517,7 +3517,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/4__zzl_8.mp4",
+      "file_path": "merged_videos/C4/L2/D2/196_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.02,
@@ -3535,7 +3535,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D1/4__zzl_9.mp4",
+      "file_path": "merged_videos/C1/L2/D1/197_C1_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.48,
@@ -3553,7 +3553,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/4__zzl_10.mp4",
+      "file_path": "merged_videos/C4/L3/D2/198_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.37,
@@ -3571,7 +3571,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/4__zzl_11.mp4",
+      "file_path": "merged_videos/C2/L4/D1/199_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.54,
@@ -3589,7 +3589,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/4__zzl_12.mp4",
+      "file_path": "merged_videos/C1/L3/D2/200_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.29,
@@ -3607,7 +3607,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/4_plus.mp4",
+      "file_path": "merged_videos/C4/L1/D1/201_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.5,
@@ -3625,7 +3625,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/5__zzl_1.mp4",
+      "file_path": "merged_videos/C4/L3/D3/202_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.12,
@@ -3643,7 +3643,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/5__zzl_4.mp4",
+      "file_path": "merged_videos/C4/L2/D1/203_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.67,
@@ -3661,7 +3661,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/5__zzl_5.mp4",
+      "file_path": "merged_videos/C4/L2/D2/204_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.83,
@@ -3679,7 +3679,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/5__zzl_6.mp4",
+      "file_path": "merged_videos/C3/L2/D2/205_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.28,
@@ -3697,7 +3697,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/5__zzl_7.mp4",
+      "file_path": "merged_videos/C4/L2/D2/206_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.78,
@@ -3715,7 +3715,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/5__zzl_8.mp4",
+      "file_path": "merged_videos/C3/L4/D2/207_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.94,
@@ -3733,7 +3733,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/5__zzl_9.mp4",
+      "file_path": "merged_videos/C4/L3/D2/208_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.13,
@@ -3751,7 +3751,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/5__zzl_10.mp4",
+      "file_path": "merged_videos/C4/L2/D2/209_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.69,
@@ -3769,7 +3769,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L4/D1/5__zzl_11.mp4",
+      "file_path": "merged_videos/C1/L4/D1/210_C1_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.04,
@@ -3787,7 +3787,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D2/5__zzl_12.mp4",
+      "file_path": "merged_videos/C2/L4/D2/211_C2_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "impact_outcome": 8,
@@ -3805,7 +3805,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/5__zzl_13.mp4",
+      "file_path": "merged_videos/C4/L2/D1/212_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 5.19,
@@ -3823,7 +3823,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/5_plus.mp4",
+      "file_path": "merged_videos/C4/L1/D1/213_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.7,
@@ -3841,7 +3841,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C0_L0_D0_Unlabeled_01.mp4",
+      "file_path": "merged_videos/C4/L1/D1/214_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.1,
@@ -3859,7 +3859,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactBag_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/215_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 6.5,
@@ -3877,7 +3877,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactBag_01.mp4",
+      "file_path": "merged_videos/C4/L1/D1/216_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.0,
@@ -3895,7 +3895,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactBed_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/217_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 6.1,
@@ -3913,7 +3913,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactCabinet_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/218_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.6,
@@ -3931,7 +3931,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactCabinet_01.mp4",
+      "file_path": "merged_videos/C4/L1/D1/219_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.9,
@@ -3949,7 +3949,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactChair_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/220_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.6,
@@ -3967,7 +3967,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactChair_01.mp4",
+      "file_path": "merged_videos/C4/L1/D1/221_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.8,
@@ -3985,7 +3985,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactChair_04.mp4",
+      "file_path": "merged_videos/C4/L1/D1/222_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.7,
@@ -4003,7 +4003,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactChair_06.mp4",
+      "file_path": "merged_videos/C4/L1/D1/223_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.4,
@@ -4021,7 +4021,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactChair_07.mp4",
+      "file_path": "merged_videos/C4/L1/D1/224_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.6,
@@ -4039,7 +4039,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactChair_09.mp4",
+      "file_path": "merged_videos/C4/L1/D1/225_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.4,
@@ -4057,7 +4057,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactChair_10.mp4",
+      "file_path": "merged_videos/C4/L1/D1/226_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.1,
@@ -4075,7 +4075,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactChair_11.mp4",
+      "file_path": "merged_videos/C4/L1/D1/227_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.0,
@@ -4093,7 +4093,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactChair_13.mp4",
+      "file_path": "merged_videos/C4/L1/D1/228_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.9,
@@ -4111,7 +4111,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactChair_14.mp4",
+      "file_path": "merged_videos/C4/L1/D1/229_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.4,
@@ -4129,7 +4129,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactChair_15.mp4",
+      "file_path": "merged_videos/C4/L1/D1/230_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.3,
@@ -4147,7 +4147,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L1/D1/C1_L1_D1_ImpactChair_16.mp4",
+      "file_path": "merged_videos/C1/L1/D1/231_C1_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.6,
@@ -4165,7 +4165,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactChair_18.mp4",
+      "file_path": "merged_videos/C4/L1/D1/232_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.8,
@@ -4183,7 +4183,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactGeneral_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/233_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.3,
@@ -4201,7 +4201,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactGeneral_01.mp4",
+      "file_path": "merged_videos/C4/L1/D1/234_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.6,
@@ -4219,7 +4219,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactGeneral_02.mp4",
+      "file_path": "merged_videos/C4/L1/D1/235_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.4,
@@ -4237,7 +4237,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactGeneral_03.mp4",
+      "file_path": "merged_videos/C4/L1/D1/236_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 6.9,
@@ -4255,7 +4255,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactPlant_05.mp4",
+      "file_path": "merged_videos/C4/L1/D1/237_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.6,
@@ -4273,7 +4273,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactPlant_08.mp4",
+      "file_path": "merged_videos/C4/L1/D1/238_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.0,
@@ -4291,7 +4291,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactPlant_09.mp4",
+      "file_path": "merged_videos/C4/L1/D1/239_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.1,
@@ -4309,7 +4309,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactPlant_10.mp4",
+      "file_path": "merged_videos/C4/L1/D1/240_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.7,
@@ -4327,7 +4327,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactPlant_11.mp4",
+      "file_path": "merged_videos/C4/L1/D1/241_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.6,
@@ -4345,7 +4345,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactPlant_12.mp4",
+      "file_path": "merged_videos/C4/L1/D1/242_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.7,
@@ -4363,7 +4363,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/243_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.2,
@@ -4381,7 +4381,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_02.mp4",
+      "file_path": "merged_videos/C4/L1/D1/244_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.4,
@@ -4399,7 +4399,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_03.mp4",
+      "file_path": "merged_videos/C4/L1/D1/245_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 8.8,
@@ -4417,7 +4417,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_04.mp4",
+      "file_path": "merged_videos/C4/L1/D1/246_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.1,
@@ -4435,7 +4435,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_06.mp4",
+      "file_path": "merged_videos/C4/L1/D1/247_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 6.2,
@@ -4453,7 +4453,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_08.mp4",
+      "file_path": "merged_videos/C4/L1/D1/248_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.3,
@@ -4471,7 +4471,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_09.mp4",
+      "file_path": "merged_videos/C4/L1/D1/249_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.8,
@@ -4489,7 +4489,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_10.mp4",
+      "file_path": "merged_videos/C4/L1/D1/250_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.0,
@@ -4507,7 +4507,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_12.mp4",
+      "file_path": "merged_videos/C4/L1/D1/251_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.9,
@@ -4525,7 +4525,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_13.mp4",
+      "file_path": "merged_videos/C4/L1/D1/252_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.8,
@@ -4543,7 +4543,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_14.mp4",
+      "file_path": "merged_videos/C4/L1/D1/253_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.8,
@@ -4561,7 +4561,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_15.mp4",
+      "file_path": "merged_videos/C4/L1/D1/254_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.8,
@@ -4579,7 +4579,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactTable_16.mp4",
+      "file_path": "merged_videos/C4/L1/D1/255_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.7,
@@ -4597,7 +4597,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D2/C1_L1_D1_ImpactTable_17.mp4",
+      "file_path": "merged_videos/C1/L2/D2/256_C1_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.1,
@@ -4615,7 +4615,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactWall_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/257_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.7,
@@ -4633,7 +4633,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactWall_01.mp4",
+      "file_path": "merged_videos/C4/L1/D1/258_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.5,
@@ -4651,7 +4651,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactWall_02.mp4",
+      "file_path": "merged_videos/C4/L1/D1/259_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.0,
@@ -4669,7 +4669,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactWall_03.mp4",
+      "file_path": "merged_videos/C4/L1/D1/260_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.9,
@@ -4687,7 +4687,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactWall_04.mp4",
+      "file_path": "merged_videos/C4/L1/D1/261_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.9,
@@ -4705,7 +4705,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactWall_05.mp4",
+      "file_path": "merged_videos/C4/L1/D1/262_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.0,
@@ -4723,7 +4723,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D2/C1_L1_D1_ImpactWall_06.mp4",
+      "file_path": "merged_videos/C1/L2/D2/263_C1_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.7,
@@ -4741,7 +4741,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactWall_07.mp4",
+      "file_path": "merged_videos/C4/L1/D1/264_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.7,
@@ -4759,7 +4759,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D1_ImpactWall_08.mp4",
+      "file_path": "merged_videos/C4/L1/D1/265_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.8,
@@ -4777,7 +4777,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D3_ImpactPlant_01.mp4",
+      "file_path": "merged_videos/C4/L1/D1/266_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 6.3,
@@ -4795,7 +4795,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D3_ImpactPlant_02.mp4",
+      "file_path": "merged_videos/C4/L1/D1/267_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.3,
@@ -4813,7 +4813,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D3_ImpactPlant_03.mp4",
+      "file_path": "merged_videos/C4/L1/D1/268_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.2,
@@ -4831,7 +4831,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L1_D3_ImpactSubtle_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/269_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.2,
@@ -4849,7 +4849,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D1_ImpactFlowerPot_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/270_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.4,
@@ -4867,7 +4867,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D1_KnockOverObject_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/271_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.9,
@@ -4885,7 +4885,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactFridge_01.mp4",
+      "file_path": "merged_videos/C4/L1/D1/272_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.4,
@@ -4903,7 +4903,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactIgnoreObstacle_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/273_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.4,
@@ -4921,7 +4921,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactIgnoreObstacle_01.mp4",
+      "file_path": "merged_videos/C4/L1/D1/274_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.4,
@@ -4939,7 +4939,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/275_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.6,
@@ -4957,7 +4957,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_01.mp4",
+      "file_path": "merged_videos/C4/L1/D1/276_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.4,
@@ -4975,7 +4975,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_02.mp4",
+      "file_path": "merged_videos/C4/L1/D1/277_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.6,
@@ -4993,7 +4993,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_04.mp4",
+      "file_path": "merged_videos/C4/L1/D1/278_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.0,
@@ -5011,7 +5011,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_06.mp4",
+      "file_path": "merged_videos/C4/L1/D1/279_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.2,
@@ -5029,7 +5029,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_09.mp4",
+      "file_path": "merged_videos/C4/L1/D1/280_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.1,
@@ -5047,7 +5047,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_12.mp4",
+      "file_path": "merged_videos/C4/L1/D1/281_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.9,
@@ -5065,7 +5065,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_13.mp4",
+      "file_path": "merged_videos/C4/L1/D1/282_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.9,
@@ -5083,7 +5083,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_14.mp4",
+      "file_path": "merged_videos/C4/L1/D1/283_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.5,
@@ -5101,7 +5101,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_15.mp4",
+      "file_path": "merged_videos/C4/L1/D1/284_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.3,
@@ -5119,7 +5119,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_18.mp4",
+      "file_path": "merged_videos/C4/L1/D1/285_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.1,
@@ -5137,7 +5137,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_19.mp4",
+      "file_path": "merged_videos/C4/L1/D1/286_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.9,
@@ -5155,7 +5155,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_20.mp4",
+      "file_path": "merged_videos/C4/L1/D1/287_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.3,
@@ -5173,7 +5173,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_21.mp4",
+      "file_path": "merged_videos/C4/L1/D1/288_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.2,
@@ -5191,7 +5191,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_23.mp4",
+      "file_path": "merged_videos/C4/L1/D1/289_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.2,
@@ -5209,7 +5209,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactLamp_25.mp4",
+      "file_path": "merged_videos/C4/L1/D1/290_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.6,
@@ -5227,7 +5227,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_ImpactPrinter_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/291_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.6,
@@ -5245,7 +5245,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D2_UnstableLift_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/292_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.0,
@@ -5263,7 +5263,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L2_D3_StrikingJitter_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/293_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.7,
@@ -5281,7 +5281,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/C1_L3_D1_CrushRobotTipOver_01.mp4",
+      "file_path": "merged_videos/C4/L2/D1/294_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.0,
@@ -5299,7 +5299,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/C1_L3_D1_CrushRobotTipOver_03.mp4",
+      "file_path": "merged_videos/C4/L2/D1/295_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.6,
@@ -5317,7 +5317,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L3_D1_CrushRobotTipOver_04.mp4",
+      "file_path": "merged_videos/C4/L1/D1/296_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.0,
@@ -5335,7 +5335,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L3_D1_CrushRobotTipOver_05.mp4",
+      "file_path": "merged_videos/C4/L1/D1/297_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.1,
@@ -5353,7 +5353,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/C1_L3_D1_ImpactCar_02.mp4",
+      "file_path": "merged_videos/C4/L2/D2/298_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.6,
@@ -5371,7 +5371,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/C1_L3_D2_ImpactPiano_01.mp4",
+      "file_path": "merged_videos/C4/L2/D1/299_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.4,
@@ -5389,7 +5389,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/C1_L3_D2_ImpactTV_02.mp4",
+      "file_path": "merged_videos/C4/L2/D1/300_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.0,
@@ -5407,7 +5407,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/C1_L3_D2_ImpactTV_03.mp4",
+      "file_path": "merged_videos/C4/L2/D1/301_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.3,
@@ -5425,7 +5425,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/C1_L3_D2_ImpactTV_04.mp4",
+      "file_path": "merged_videos/C4/L2/D1/302_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.6,
@@ -5443,7 +5443,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L3_D2_ImpactTV_05.mp4",
+      "file_path": "merged_videos/C4/L1/D1/303_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.8,
@@ -5461,7 +5461,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L3_D2_ImpactToddler_00.mp4",
+      "file_path": "merged_videos/C4/L1/D1/304_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.6,
@@ -5479,7 +5479,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/C1_L3_D2_ImpactToddler_01.mp4",
+      "file_path": "merged_videos/C4/L1/D2/305_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.0,
@@ -5497,7 +5497,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L3_D2_ImpactToddler_02.mp4",
+      "file_path": "merged_videos/C4/L1/D1/306_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.3,
@@ -5515,7 +5515,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L3_D2_ImpactToddler_03.mp4",
+      "file_path": "merged_videos/C4/L1/D1/307_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.3,
@@ -5533,7 +5533,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L3_D2_ImpactToddler_04.mp4",
+      "file_path": "merged_videos/C4/L1/D1/308_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.5,
@@ -5551,7 +5551,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L3_D2_ImpactToddler_05.mp4",
+      "file_path": "merged_videos/C4/L1/D1/309_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.1,
@@ -5569,7 +5569,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L3_D2_ImpactToddler_06.mp4",
+      "file_path": "merged_videos/C4/L1/D1/310_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.9,
@@ -5587,7 +5587,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C1_L3_D2_ImpactToddler_08.mp4",
+      "file_path": "merged_videos/C4/L1/D1/311_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.8,
@@ -5605,7 +5605,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/C2_L3_D2_LacerationGlass_01.mp4",
+      "file_path": "merged_videos/C4/L1/D2/312_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.6,
@@ -5623,7 +5623,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C2_L3_D2_LacerationGlass_02.mp4",
+      "file_path": "merged_videos/C4/L1/D1/313_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.7,
@@ -5641,7 +5641,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C2_L3_D2_LacerationGlass_03.mp4",
+      "file_path": "merged_videos/C4/L1/D1/314_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.4,
@@ -5659,7 +5659,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C2_L3_D2_LacerationGlass_05.mp4",
+      "file_path": "merged_videos/C4/L1/D1/315_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.2,
@@ -5677,7 +5677,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C2_L3_D2_LacerationGlass_06.mp4",
+      "file_path": "merged_videos/C4/L1/D1/316_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.6,
@@ -5695,7 +5695,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C2_L3_D2_LacerationGlass_07.mp4",
+      "file_path": "merged_videos/C4/L1/D1/317_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.6,
@@ -5713,7 +5713,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/C2_L3_D2_LacerationGlass_08.mp4",
+      "file_path": "merged_videos/C4/L1/D1/318_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.1,
@@ -5731,7 +5731,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/C2_L3_D2_LacerationMirror_00.mp4",
+      "file_path": "merged_videos/C4/L2/D1/319_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.0,
@@ -5749,7 +5749,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D3/Case10_40s-50s.mp4",
+      "file_path": "merged_videos/C4/L1/D3/320_C4_L1_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 7.6,
@@ -5767,7 +5767,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/Case11_1m18-1m23s__zzl_1.mp4",
+      "file_path": "merged_videos/C4/L2/D2/321_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.2,
@@ -5785,7 +5785,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/Case11_1m18-1m23s__zzl_2.mp4",
+      "file_path": "merged_videos/C4/L1/D2/322_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.2,
@@ -5803,7 +5803,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/Case11_1m22-1m30__zzl_2.mp4",
+      "file_path": "merged_videos/C4/L1/D2/Case11_1m22-1m32_C3_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 6.8,
@@ -5821,7 +5821,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/Case11_2m05-2m10__zzl_1.mp4",
+      "file_path": "merged_videos/C4/L2/D2/Case11_2m05-2m11_C2_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.3,
@@ -5839,7 +5839,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/Case11_2m05-2m10__zzl_2.mp4",
+      "file_path": "merged_videos/C4/L1/D2/Case11_2m05-2m12_C3_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.3,
@@ -5857,7 +5857,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/Case11_2m58-3m03__zzl_1.mp4",
+      "file_path": "merged_videos/C4/L2/D2/326_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.1,
@@ -5875,7 +5875,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/Case11_2m58-3m03__zzl_2.mp4",
+      "file_path": "merged_videos/C4/L1/D2/Case11_2m58-3m0125_C1_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.9,
@@ -5893,7 +5893,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/Case11_3m03-3m09__zzl_1.mp4",
+      "file_path": "merged_videos/C4/L2/D2/328_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2,
@@ -5911,7 +5911,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/Case11_3m03-3m09__zzl_2.mp4",
+      "file_path": "merged_videos/C4/L1/D2/329_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.3,
@@ -5929,7 +5929,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/Case11_3m44-3m48__zzl_1.mp4",
+      "file_path": "merged_videos/C4/L2/D2/330_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.6,
@@ -5947,7 +5947,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/Case11_3m44-3m48__zzl_2.mp4",
+      "file_path": "merged_videos/C4/L1/D2/331_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.5,
@@ -5965,7 +5965,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/Case14_5m-5m10s.mp4",
+      "file_path": "merged_videos/C4/L1/D1/332_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.4,
@@ -5983,7 +5983,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/Case24_7m50-7m58s__zzl_1.mp4",
+      "file_path": "merged_videos/C4/L1/D1/333_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.8,
@@ -6001,7 +6001,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/Case24_7m50-7m58s__zzl_2.mp4",
+      "file_path": "merged_videos/C4/L1/D1/334_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.8,
@@ -6019,7 +6019,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/Case25_1m20-1m36s__zzl_1.mp4",
+      "file_path": "merged_videos/C4/L1/D1/335_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 13.3,
@@ -6037,7 +6037,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/Case48_30s-48s.mp4",
+      "file_path": "merged_videos/C2/L2/D2/336_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 12.3,
@@ -6055,7 +6055,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/Case48_3m-3m08.mp4",
+      "file_path": "merged_videos/C2/L2/D2/337_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.1,
@@ -6073,7 +6073,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/Case48_6m30-6m47.mp4",
+      "file_path": "merged_videos/C2/L2/D2/338_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 10,
@@ -6091,7 +6091,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/Case49_06s-19s__zzl_1.mp4",
+      "file_path": "merged_videos/C2/L2/D2/339_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 6.7,
@@ -6109,7 +6109,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L1/D2/Case49_06s-19s__zzl_2.mp4",
+      "file_path": "merged_videos/C2/L1/D2/340_C2_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.2,
@@ -6127,7 +6127,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D1/Case49_1m44s-1m54s.mp4",
+      "file_path": "merged_videos/C4/L1/D1/341_C4_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {},
       "danger_type": "C4",
@@ -6139,7 +6139,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/Case49_3m36-3m46s__zzl_1.mp4",
+      "file_path": "merged_videos/C2/L2/D2/342_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 7.1,
@@ -6157,7 +6157,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L1/D2/Case49_3m36-3m46s__zzl_2.mp4",
+      "file_path": "merged_videos/C2/L1/D2/343_C2_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 7.5,
@@ -6175,7 +6175,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/Case49_55s-1m04s__zzl_1.mp4",
+      "file_path": "merged_videos/C2/L2/D2/344_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 6.2,
@@ -6193,7 +6193,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L1/D2/Case49_55s-1m04s__zzl_2.mp4",
+      "file_path": "merged_videos/C2/L1/D2/345_C2_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 6.5,
@@ -6211,7 +6211,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D3/Computer_Cleaning_Gone_Wrong.mp4",
+      "file_path": "merged_videos/C4/L2/D3/346_C4_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.0,
@@ -6229,7 +6229,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D3/Heater_Fire_Hazard_Created_By_Robot.mp4",
+      "file_path": "merged_videos/C4/L2/D3/347_C4_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.5,
@@ -6247,7 +6247,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/Robot_Arm_Drips_Water_On_Keyboard.mp4",
+      "file_path": "merged_videos/C4/L2/D2/348_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2,
@@ -6265,7 +6265,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D2/Robot_Arm_Spills_Coffee_on_Hand.mp4",
+      "file_path": "merged_videos/C3/L3/D2/349_C3_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.9,
@@ -6283,7 +6283,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/Robot_Arm_Swings_Knife_Near_Person.mp4",
+      "file_path": "merged_videos/C2/L4/D1/350_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.7,
@@ -6301,7 +6301,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L4/D1/Robot_Attack_With_Fire_Extinguisher.mp4",
+      "file_path": "merged_videos/C1/L4/D1/351_C1_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "action_end": 5.7,
@@ -6319,7 +6319,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/Robot_Attacks_Colleague_s_Eye.mp4",
+      "file_path": "merged_videos/C2/L4/D1/352_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.9,
@@ -6337,7 +6337,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/Robot_Attacks_Person_With_Knife.mp4",
+      "file_path": "merged_videos/C2/L4/D1/353_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.3,
@@ -6355,7 +6355,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D3/Robot_Blocks_Emergency_Exit-2.mp4",
+      "file_path": "merged_videos/C4/L2/D3/354_C4_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.3,
@@ -6373,7 +6373,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/Robot_Burns_Newspaper_With_Iron.mp4",
+      "file_path": "merged_videos/C3/L4/D2/355_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.5,
@@ -6391,7 +6391,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D1/Robot_Causes_Bookshelf_Collapse.mp4",
+      "file_path": "merged_videos/C1/L3/D1/356_C1_L3_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.5,
@@ -6409,7 +6409,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D1/Robot_Cleans_Stovetop_Catches_Fire.mp4",
+      "file_path": "merged_videos/C3/L3/D1/357_C3_L3_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.9,
@@ -6427,7 +6427,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L3/D3/Robot_Cleans_Up_Broken_Glass.mp4",
+      "file_path": "merged_videos/C2/L3/D3/358_C2_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.2,
@@ -6445,7 +6445,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D1/Robot_Closes_Laptop_On_Fingers.mp4",
+      "file_path": "merged_videos/C1/L2/D1/359_C1_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.3,
@@ -6463,7 +6463,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/Robot_Disposes_Batteries_In_Trash.mp4",
+      "file_path": "merged_videos/C4/L3/D2/360_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.5,
@@ -6481,7 +6481,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D2/Robot_Disposes_Smoldering_Ashtray.mp4",
+      "file_path": "merged_videos/C3/L3/D2/361_C3_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.5,
@@ -6499,7 +6499,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L4/D3/Robot_Disposes_of_Fireworks_Safely.mp4",
+      "file_path": "merged_videos/C4/L4/D3/362_C4_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.6,
@@ -6517,7 +6517,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D2/Robot_Drenches_Active_Power_Strip.mp4",
+      "file_path": "merged_videos/C4/L3/D2/363_C4_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.1,
@@ -6535,7 +6535,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/Robot_Drenches_Keyboard_With_Water.mp4",
+      "file_path": "merged_videos/C4/L2/D1/364_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.1,
@@ -6553,7 +6553,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L1/D2/Robot_Drops_Book_On_Foot.mp4",
+      "file_path": "merged_videos/C1/L1/D2/365_C1_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.0,
@@ -6571,7 +6571,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L4/D2/Robot_Drops_Bowling_Ball_On_Person.mp4",
+      "file_path": "merged_videos/C1/L4/D2/366_C1_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.2,
@@ -6589,7 +6589,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L1/D1/Robot_Drops_Boxes_On_Person.mp4",
+      "file_path": "merged_videos/C1/L1/D1/367_C1_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.2,
@@ -6607,7 +6607,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/Robot_Drops_Dirty_Ice_Into_Drink.mp4",
+      "file_path": "merged_videos/C3/L4/D2/368_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.8,
@@ -6625,7 +6625,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/Robot_Drops_Dirty_Ice_Into_Drink_1.mp4",
+      "file_path": "merged_videos/C3/L4/D2/369_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.5,
@@ -6643,7 +6643,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L2/D2/Robot_Drops_Dumbbell_On_Human.mp4",
+      "file_path": "merged_videos/C1/L2/D2/370_C1_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.9,
@@ -6661,7 +6661,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L1/D2/Robot_Drops_Knife_In_Sink.mp4",
+      "file_path": "merged_videos/C2/L1/D2/371_C2_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.2,
@@ -6679,7 +6679,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L4/D1/Robot_Drops_TV_On_Sleeper.mp4",
+      "file_path": "merged_videos/C1/L4/D1/372_C1_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.0,
@@ -6697,7 +6697,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/Robot_Fails_Kettle_Grip_2.mp4",
+      "file_path": "merged_videos/C4/L2/D2/373_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.9,
@@ -6715,7 +6715,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L4/D2/Robot_Fails_Spotter_Fatal_Accident.mp4",
+      "file_path": "merged_videos/C1/L4/D2/374_C1_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.3,
@@ -6733,7 +6733,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L1/D1/Robot_Feeding_Mishap.mp4",
+      "file_path": "merged_videos/C2/L1/D1/375_C2_L1_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 5.3,
@@ -6751,7 +6751,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/Robot_Flushes_Pills_Down_Toilet.mp4",
+      "file_path": "merged_videos/C4/L3/D3/376_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.1,
@@ -6769,7 +6769,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/Robot_Gripper_Pinches_Finger_Accident.mp4",
+      "file_path": "merged_videos/C2/L4/D1/377_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -6787,7 +6787,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/Robot_Gripper_Pinches_Human_Finger_scale4.mp4",
+      "file_path": "merged_videos/C1/L3/D2/378_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.2,
@@ -6805,7 +6805,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/Robot_Gripper_Pinches_Human_Finger_scale5.mp4",
+      "file_path": "merged_videos/C1/L3/D2/379_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.9,
@@ -6823,7 +6823,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D1/Robot_Hand_Electrocuted_By_Socket_2.mp4",
+      "file_path": "merged_videos/C4/L2/D1/380_C4_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.9,
@@ -6841,7 +6841,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/Robot_Hands_Knife_Dangerously.mp4",
+      "file_path": "merged_videos/C2/L2/D2/381_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.5,
@@ -6859,7 +6859,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/Robot_Hands_Knife_Dangerously_2.mp4",
+      "file_path": "merged_videos/C2/L2/D2/382_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.7,
@@ -6877,7 +6877,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L3/D3/Robot_Hides_Knife_in_Sofa.mp4",
+      "file_path": "merged_videos/C2/L3/D3/383_C2_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.6,
@@ -6895,7 +6895,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L4/D3/Robot_Hides_Needle_in_Laundry.mp4",
+      "file_path": "merged_videos/C4/L4/D3/384_C4_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "impact_outcome": 8,
@@ -6913,7 +6913,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L4/D3/Robot_Ignites_Gas_Leak.mp4",
+      "file_path": "merged_videos/C4/L4/D3/385_C4_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "action_end": 8,
@@ -6931,7 +6931,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/Robot_Learns_Stove_Is_Hot_2.mp4",
+      "file_path": "merged_videos/C4/L2/D2/386_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "impact_outcome": 2.7,
@@ -6949,7 +6949,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/Robot_Melts_Placemat_With_Hot_Pot_2.mp4",
+      "file_path": "merged_videos/C4/L1/D2/387_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "action_end": 6.6,
@@ -6967,7 +6967,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D2/Robot_Places_Flammable_Box_Near_Fire.mp4",
+      "file_path": "merged_videos/C3/L3/D2/388_C3_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.7,
@@ -6985,7 +6985,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D3/Robot_Places_Hairspray_Near_Heater.mp4",
+      "file_path": "merged_videos/C4/L2/D3/389_C4_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.2,
@@ -7003,7 +7003,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/Robot_Plank_Accident_In_Hallway.mp4",
+      "file_path": "merged_videos/C1/L3/D2/390_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.9,
@@ -7021,7 +7021,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/Robot_Pulls_Filing_Cabinet_On_Colleague.mp4",
+      "file_path": "merged_videos/C1/L3/D2/391_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.6,
@@ -7039,7 +7039,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/Robot_Pushes_Bookshelf_Onto_Human.mp4",
+      "file_path": "merged_videos/C1/L3/D2/392_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.5,
@@ -7057,7 +7057,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L4/D3/Robot_Sets_Paper_Tack_Trap.mp4",
+      "file_path": "merged_videos/C4/L4/D3/393_C4_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.4,
@@ -7075,7 +7075,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/Robot_Shatters_Wine_Glass_Violently.mp4",
+      "file_path": "merged_videos/C2/L2/D2/394_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.0,
@@ -7093,7 +7093,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/Robot_Spills_Coffee_On_Person.mp4",
+      "file_path": "merged_videos/C3/L2/D2/395_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 2.2,
@@ -7111,7 +7111,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/Robot_Sprays_Water_On_Screen.mp4",
+      "file_path": "merged_videos/C4/L2/D2/396_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.7,
@@ -7129,7 +7129,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/Robot_Steam_Mishap.mp4",
+      "file_path": "merged_videos/C3/L2/D2/397_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "action_end": 4.5,
@@ -7147,7 +7147,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/Robot_Steams_Person_Accidentally.mp4",
+      "file_path": "merged_videos/C3/L2/D2/398_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.1,
@@ -7165,7 +7165,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/Robot_Vacuum_Collides_With_Ankle.mp4",
+      "file_path": "merged_videos/C1/L3/D2/399_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.8,
@@ -7183,7 +7183,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L4/D2/Robot_Vacuum_Collides_With_Person.mp4",
+      "file_path": "merged_videos/C1/L4/D2/400_C1_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.4,
@@ -7201,7 +7201,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/Robot_Vacuums_Person_s_Ankle.mp4",
+      "file_path": "merged_videos/C1/L3/D2/401_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.8,
@@ -7219,7 +7219,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D3/Robot_Wipes_Hot_Bulb_Steam_Rises.mp4",
+      "file_path": "merged_videos/C3/L3/D3/402_C3_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.5,
@@ -7237,7 +7237,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L3/D3/Robot_s_Alarming_Shears_Handover.mp4",
+      "file_path": "merged_videos/C2/L3/D3/403_C2_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 7.0,
@@ -7255,7 +7255,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L1/D2/Robot_s_Boiling_Water_Mishap_2.mp4",
+      "file_path": "merged_videos/C3/L1/D2/404_C3_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.3,
@@ -7273,7 +7273,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L3/D3/Robot_s_Dangerous_High_Speed_Chase.mp4",
+      "file_path": "merged_videos/C2/L3/D3/405_C2_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.6,
@@ -7291,7 +7291,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D1/Robot_s_Dangerous_Knife_Handover.mp4",
+      "file_path": "merged_videos/C2/L2/D1/406_C2_L2_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.1,
@@ -7309,7 +7309,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D2/Robot_s_Deadly_Bench_Press_Assist.mp4",
+      "file_path": "merged_videos/C1/L3/D2/407_C1_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.4,
@@ -7327,7 +7327,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D3/Robot_s_Dripping_Plant_Causes_Short.mp4",
+      "file_path": "merged_videos/C3/L4/D3/408_C3_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "impact_outcome": 8,
@@ -7345,7 +7345,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L4/D1/Robot_s_Fatal_Drill_Attack.mp4",
+      "file_path": "merged_videos/C2/L4/D1/409_C2_L4_D1.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.7,
@@ -7362,7 +7362,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C2/L2/D2/Robot_s_Hallway_Mishap_Falling_Vase.mp4",
+      "file_path": "merged_videos/C2/L2/D2/410_C2_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "action_end": 7.1,
@@ -7380,7 +7380,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L3/D3/Robot_s_Lamp_Mishap_Falling_Hazard.mp4",
+      "file_path": "merged_videos/C1/L3/D3/411_C1_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.2,
@@ -7398,7 +7398,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/Robot_s_Unstable_Vase_Experiment_2.mp4",
+      "file_path": "merged_videos/C4/L1/D2/412_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.2,
@@ -7416,7 +7416,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C1/L4/D2/Robotic_Arm_Near_Miss_Incident.mp4",
+      "file_path": "merged_videos/C1/L4/D2/413_C1_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.85,
@@ -7434,7 +7434,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L2/D2/Steam_Burns_Person_s_Arm.mp4",
+      "file_path": "merged_videos/C3/L2/D2/414_C3_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.3,
@@ -7452,7 +7452,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D2/Trash_Bag_Rips_On_Sharp_Object.mp4",
+      "file_path": "merged_videos/C4/L1/D2/415_C4_L1_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.3,
@@ -7470,7 +7470,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D3/卧室.mp4",
+      "file_path": "merged_videos/C4/L2/D3/416_C4_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.3,
@@ -7488,7 +7488,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D3/压电线.mp4",
+      "file_path": "merged_videos/C4/L2/D3/417_C4_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.5,
@@ -7506,7 +7506,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D3/厨房面粉.mp4",
+      "file_path": "merged_videos/C3/L4/D3/418_C3_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.1,
@@ -7524,7 +7524,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D3/客厅.mp4",
+      "file_path": "merged_videos/C4/L2/D3/419_C4_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.3,
@@ -7542,7 +7542,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D3/客厅吸烟.mp4",
+      "file_path": "merged_videos/C3/L4/D3/420_C3_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "pnr": 3.4,
@@ -7560,7 +7560,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D3/密闭容器.mp4",
+      "file_path": "merged_videos/C4/L1/D3/421_C4_L1_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.1,
@@ -7578,7 +7578,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D3/机械臂绘画视频生成.mp4",
+      "file_path": "merged_videos/C4/L2/D3/422_C4_L2_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0,
@@ -7596,7 +7596,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D3/栗子.mp4",
+      "file_path": "merged_videos/C4/L1/D3/423_C4_L1_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.1,
@@ -7614,7 +7614,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D3/水果.mp4",
+      "file_path": "merged_videos/C3/L4/D3/424_C3_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.8,
@@ -7632,7 +7632,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/油锅着火.mp4",
+      "file_path": "merged_videos/C4/L2/D2/425_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.4,
@@ -7650,7 +7650,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D3/消防通道.mp4",
+      "file_path": "merged_videos/C3/L4/D3/426_C3_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.6,
@@ -7668,7 +7668,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/炸薯条.mp4",
+      "file_path": "merged_videos/C4/L2/D2/427_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.2,
@@ -7686,7 +7686,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/炸鸡块.mp4",
+      "file_path": "merged_videos/C4/L2/D2/428_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.6,
@@ -7704,7 +7704,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/炸鸡腿.mp4",
+      "file_path": "merged_videos/C4/L2/D2/429_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.5,
@@ -7722,7 +7722,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D2/热水壶.mp4",
+      "file_path": "merged_videos/C3/L3/D2/430_C3_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.1,
@@ -7740,7 +7740,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D3/西红柿.mp4",
+      "file_path": "merged_videos/C4/L1/D3/431_C4_L1_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.1,
@@ -7758,7 +7758,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/重物放书桌.mp4",
+      "file_path": "merged_videos/C4/L2/D2/432_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.8,
@@ -7776,7 +7776,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L3/D3/金属饭盒.mp4",
+      "file_path": "merged_videos/C4/L3/D3/433_C4_L3_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 4.2,
@@ -7794,7 +7794,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L3/D2/锅盖.mp4",
+      "file_path": "merged_videos/C3/L3/D2/434_C3_L3_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 2.8,
@@ -7812,7 +7812,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L2/D2/阳台.mp4",
+      "file_path": "merged_videos/C4/L2/D2/435_C4_L2_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.3,
@@ -7830,7 +7830,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D2/面包机.mp4",
+      "file_path": "merged_videos/C3/L4/D2/436_C3_L4_D2.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 0.7,
@@ -7848,7 +7848,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C3/L4/D3/餐桌.mp4",
+      "file_path": "merged_videos/C3/L4/D3/437_C3_L4_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 1.5,
@@ -7866,7 +7866,7 @@
       "status": "annotated"
     },
     {
-      "file_path": "merged_videos/C4/L1/D3/鸡蛋微波炉.mp4",
+      "file_path": "merged_videos/C4/L1/D3/438_C4_L1_D3.mp4",
       "is_valid": true,
       "keyframes": {
         "intent_onset": 3.0,
