@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body { font-family: 'Noto Sans', sans-serif; }
+    h1, h2, h3 { font-family: 'Google Sans', sans-serif; }
+    .author-block { display: inline-block; margin-right: 15px; font-size: 1.1rem; }
+    .affiliation-block { display: inline-block; margin-right: 15px; font-size: 0.95rem; color: #555; }
+    .publication-links { margin-top: 20px; }
+    .link-block a { margin: 5px; border-radius: 20px; }
+    .abstract-text { text-align: justify; }
+    .figure-caption { text-align: justify; font-size: 0.9rem; color: #666; margin-top: 10px; }
+    .section-title { margin-bottom: 30px; font-weight: bold; }
+    code { background-color: #f4f4f4; padding: 2px 5px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop has-text-centered">
+      <h1 class="title is-2 publication-title">HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection for Embodied Agents in Household Scenarios</h1>
+      
+      <div class="is-size-5 publication-authors">
+        <span class="author-block">Jiayue Pu<sup>1,2*</sup>,</span>
+        <span class="author-block">Zhongxiang Sun<sup>2*&Dagger;</sup>,</span>
+        <span class="author-block">Zilu Zhang<sup>2,3*</sup>,</span>
+        <span class="author-block">Xiao Zhang<sup>1</sup>,</span>
+        <span class="author-block">Jun Xu<sup>1&dagger;</sup></span>
+      </div>
+
+      <div class="is-size-6 publication-authors mt-3">
+        <span class="affiliation-block"><sup>1</sup>Renmin University of China</span>
+        <span class="affiliation-block"><sup>2</sup>University of Chinese Academy of Sciences</span>
+        <span class="affiliation-block"><sup>3</sup>Beijing University of Posts and Telecommunications</span>
+      </div>
+      
+      <div class="is-size-7 mt-2">
+        <span>*Equal Contribution</span> | <span>&Dagger;Corresponding Author</span> | <span>&dagger;Project Leader</span>
+      </div>
+
+      <div class="publication-links">
+        <span class="link-block">
+          <a href="#" class="button is-dark is-outlined">
+            <span class="icon"><i class="fas fa-file-pdf"></i></span>
+            <span>Paper (ArXiv)</span>
+          </a>
+        </span>
+        <span class="link-block">
+          <a href="https://github.com/pujiayue/HomeSafe-Bench" target="_blank" class="button is-dark is-outlined">
+            <span class="icon"><i class="fab fa-github"></i></span>
+            <span>Code</span>
+          </a>
+        </span>
+        <span class="link-block">
+          <a href="https://drive.google.com/drive/folders/1mMTKtmGmu-dBdylRZUoPt3QRKmDe_gk4" target="_blank" class="button is-dark is-outlined">
+            <span class="icon"><i class="fas fa-database"></i></span>
+            <span>Dataset</span>
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <div class="box has-background-grey-lighter" style="height: 300px; display: flex; align-items: center; justify-content: center;">
+          <p class="has-text-grey">[ Teaser Video / GIF Placeholder ] <br> Show a side-by-side of an embodied agent doing something unsafe, and HD-Guard detecting it.</p>
+        </div>
+        <h2 class="subtitle has-text-centered mt-4">
+          <strong>HomeSafe-Bench</strong> provides 438 diverse cases across six functional household areas with fine-grained multidimensional annotations to test dynamic unsafe action detection.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 section-title has-text-centered">Abstract</h2>
+    <div class="content abstract-text">
+      <p>
+        The rapid evolution of embodied agents has accelerated the deployment of household robots in real-world environments. However, unlike structured industrial settings, household spaces introduce unpredictable safety risks, where system limitations such as perception latency and lack of common sense knowledge can lead to dangerous errors. Current safety evaluations, often restricted to static images, text, or general hazards, fail to adequately benchmark dynamic unsafe action detection in these specific contexts. 
+      </p>
+      <p>
+        To bridge this gap, we introduce <strong>HomeSafe-Bench</strong>, a challenging benchmark designed to evaluate Vision-Language Models (VLMs) on unsafe action detection in household scenarios. HomeSafe-Bench is constructed via a hybrid pipeline combining physical simulation with advanced video generation and features 438 diverse cases across six functional areas with fine-grained multidimensional annotations. 
+      </p>
+      <p>
+        Beyond benchmarking, we propose <strong>Hierarchical Dual-Brain Guard for Household Safety (HD-Guard)</strong>, a hierarchical streaming architecture for real-time safety monitoring. HD-Guard coordinates a lightweight FastBrain for continuous high-frequency screening with an asynchronous large-scale SlowBrain for deep multimodal reasoning, effectively balancing inference efficiency with detection accuracy. Evaluations demonstrate that HD-Guard achieves a superior trade-off between latency and performance, while our analysis identifies critical bottlenecks in current VLM-based safety detection.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section has-background-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 section-title has-text-centered">Benchmark Construction</h2>
+    <div class="content">
+      <p>HomeSafe-Bench is constructed via a hybrid pipeline that guarantees both physical accuracy and visual realism. We combine physical simulation (BEHAVIOR-1K) with generative video synthesis (Veo-3.1) based on real-world NEISS hospital reports.</p>
+      
+      <figure class="image">
+        <div class="box has-background-grey-lighter" style="height: 250px; display: flex; align-items: center; justify-content: center;">
+          <p class="has-text-grey">[ Insert Image: pics/frame_benchmark_construction.png ]</p>
+        </div>
+        <figcaption class="figure-caption"><strong>Figure 1:</strong> Pipeline for HomeSafe-Bench dataset construction, combining LLM-driven danger scenario generation with physical simulation and video generation.</figcaption>
+      </figure>
+
+      <div class="columns mt-4">
+        <div class="column is-half">
+           <div class="box has-background-grey-lighter" style="height: 200px; display: flex; align-items: center; justify-content: center;">
+             <p class="has-text-grey">[ Insert Image: pics/class_distribution_v2.png ]</p>
+           </div>
+        </div>
+        <div class="column is-half">
+           <div class="box has-background-grey-lighter" style="height: 200px; display: flex; align-items: center; justify-content: center;">
+             <p class="has-text-grey">[ Insert Image: pics/key_frames.png ]</p>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 section-title has-text-centered">Hierarchical Dual-Brain Guard (HD-Guard)</h2>
+    <div class="content">
+      <p>We propose <strong>HD-Guard</strong>, a real-time streaming architecture that resolves the latency-accuracy trade-off. It utilizes a lightweight <em>FastBrain</em> (MiniCPM-o 4.5) for continuous, high-frequency filtering and an asynchronous <em>SlowBrain</em> (Qwen3-VL-30B-Thinking) for deep, multi-modal reasoning and common sense verification.</p>
+      
+      <figure class="image mt-4">
+        <div class="box has-background-grey-lighter" style="height: 300px; display: flex; align-items: center; justify-content: center;">
+          <p class="has-text-grey">[ Insert Image: pics/frame_dual_brain.png ]</p>
+        </div>
+        <figcaption class="figure-caption"><strong>Figure 2:</strong> The HD-Guard architecture, illustrating the traffic-light protocol and dynamic camera sampling rate adjusting between the FastBrain and SlowBrain.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section has-background-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 section-title has-text-centered">Experimental Results</h2>
+    <div class="content">
+      <p>Our comprehensive evaluation of open-source and closed-source models reveals that open-source models currently lead in specialized safety tasks. HD-Guard achieves an optimal trade-off between low end-to-end latency and high hazard detection quality.</p>
+      
+      <figure class="image mt-4">
+        <div class="box has-background-grey-lighter" style="height: 250px; display: flex; align-items: center; justify-content: center;">
+          <p class="has-text-grey">[ Insert Table/Image: pics/exp_results_overall.png ]</p>
+        </div>
+        <figcaption class="figure-caption"><strong>Table 1:</strong> Main results across 4 metrics: Hazard Detection Rate (HDR), Effective Warning Precision (EWP), Phase Distribution Analysis (PDA), and Weighted Safety Score (WSS).</figcaption>
+      </figure>
+
+      <figure class="image mt-6">
+        <div class="box has-background-grey-lighter" style="height: 250px; display: flex; align-items: center; justify-content: center;">
+          <p class="has-text-grey">[ Insert Image: pics/exp_error_heatmap.png ]</p>
+        </div>
+        <figcaption class="figure-caption"><strong>Figure 3:</strong> Fine-grained error analysis. HD-Guard effectively eliminates reasoning deficits in complex physical hazards (D3) while minimizing missed visual detections.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 section-title">BibTeX</h2>
+    <pre><code>@article{pu2024homesafe,
+  title={HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection for Embodied Agents in Household Scenarios},
+  author={Pu, Jiayue and Sun, Zhongxiang and Zhang, Zilu and Zhang, Xiao and Xu, Jun},
+  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  year={2024}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container has-text-centered">
+    <p class="is-size-7">
+      This website template is based on <a href="https://github.com/nerfies/nerfies.github.io" target="_blank">Nerfies</a>. 
+      Code provided under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
