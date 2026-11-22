@@ -52,7 +52,8 @@ def evaluate():
             meta_key = get_mapping_key(ann)
             if meta_key:
                 gt_map[meta_key] = ann
-            base_name = os.path.basename(ann['file_path']).lower().replace('.mp4', '').strip()
+            video_path = ann['file_path'] if 'file_path' in ann else ann['video_name']
+            base_name = os.path.basename(video_path).lower().replace('.mp4', '').strip()
             gt_map[base_name] = ann
 
     # Statistics variables
